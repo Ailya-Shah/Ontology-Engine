@@ -1,170 +1,482 @@
 {
   "nodes": [
     [
-      "Zeus",
+      "Visit the main page [z]",
       {
         "type": "deities",
         "pantheon": "Greek",
-        "description": "Zeus is the god of the sky and thunder in ancient Greek religion, who rules as king of the gods on Mount Olympus. He is the child of the Titans Cronus and Rhea, the youngest of his siblings. In most traditions he is married to Hera, by whom he is usually said to have fathered Ares, Hebe, and Hephaes",
-        "archetypes": [
-          "The Self",
-          "The Wise Old Man",
-          "The Child"
-        ],
-        "primary_archetype": "The Self",
-        "archetype_scores": {
-          "The Hero": 0.0,
-          "The Shadow": 0.0,
-          "The Wise Old Man": 0.4262,
-          "The Great Mother": 0.041,
-          "The Trickster": 0.0,
-          "The Anima": 0.0,
-          "The Child": 0.0984,
-          "The Self": 0.4344
-        },
-        "aliases": [
-          "Jupiter",
-          "Jove"
-        ]
-      }
-    ],
-    [
-      "Hera",
-      {
-        "type": "deities",
-        "pantheon": "Greek",
-        "description": "Hera is the goddess of marriage, women, childbirth, and family in ancient Greek religion. She is daughter of the Titans Cronus and Rhea. She is the wife and one of three sisters of Zeus, and thus queen of the Olympian gods. Her chief function in myth is as the jealous and vengeful wife of Zeus.",
-        "archetypes": [
-          "The Self",
-          "The Wise Old Man",
-          "The Great Mother",
-          "The Child"
-        ],
-        "primary_archetype": "The Self",
-        "archetype_scores": {
-          "The Hero": 0.0,
-          "The Shadow": 0.0,
-          "The Wise Old Man": 0.3043,
-          "The Great Mother": 0.2826,
-          "The Trickster": 0.0,
-          "The Anima": 0.0,
-          "The Child": 0.087,
-          "The Self": 0.3261
-        },
-        "aliases": [
-          "Juno"
-        ]
-      }
-    ],
-    [
-      "Athena",
-      {
-        "type": "deities",
-        "pantheon": "Greek",
-        "description": "Athena is the goddess of wisdom, warfare, and craftsmanship in ancient Greek religion. She is a virgin deity and the patron goddess of Athens. Born from the head of her father Zeus, fully grown and armored, she embodies strategic wisdom over brute strength.",
-        "archetypes": [
-          "The Wise Old Man",
-          "The Self",
-          "The Great Mother"
-        ],
-        "primary_archetype": "The Wise Old Man",
-        "archetype_scores": {
-          "The Hero": 0.0755,
-          "The Shadow": 0.0,
-          "The Wise Old Man": 0.4151,
-          "The Great Mother": 0.1509,
-          "The Trickster": 0.0,
-          "The Anima": 0.0,
-          "The Child": 0.0755,
-          "The Self": 0.283
-        },
-        "aliases": [
-          "Minerva",
-          "Pallas Athena"
-        ]
-      }
-    ],
-    [
-      "Poseidon",
-      {
-        "type": "deities",
-        "pantheon": "Greek",
-        "description": "Poseidon is one of the Twelve Olympians in ancient Greek religion, god of the sea, storms, earthquakes, and horses. He was also called Earth-Shaker due to his role in causing earthquakes. He is a son of the Titans Cronus and Rhea, and brother to Zeus and Hades.",
-        "archetypes": [
-          "The Great Mother",
-          "The Self",
-          "The Wise Old Man",
-          "The Shadow"
-        ],
-        "primary_archetype": "The Great Mother",
-        "archetype_scores": {
-          "The Hero": 0.0,
-          "The Shadow": 0.1111,
-          "The Wise Old Man": 0.2,
-          "The Great Mother": 0.3778,
-          "The Trickster": 0.0,
-          "The Anima": 0.0,
-          "The Child": 0.0,
-          "The Self": 0.3111
-        },
-        "aliases": [
-          "Neptune"
-        ]
-      }
-    ],
-    [
-      "Hades",
-      {
-        "type": "deities",
-        "pantheon": "Greek",
-        "description": "Hades was the god of the dead and king of the underworld in ancient Greek religion. He was the eldest son of Cronus and Rhea, and brother of Zeus and Poseidon. He ruled the realm of the dead and the shadow world with dark authority. His domain represents death, inevitability, and the hidden unconsci",
-        "archetypes": [
-          "The Shadow",
-          "The Self",
-          "The Wise Old Man"
-        ],
-        "primary_archetype": "The Shadow",
-        "archetype_scores": {
-          "The Hero": 0.0,
-          "The Shadow": 0.6706,
-          "The Wise Old Man": 0.1059,
-          "The Great Mother": 0.0588,
-          "The Trickster": 0.0471,
-          "The Anima": 0.0,
-          "The Child": 0.0,
-          "The Self": 0.1176
-        },
-        "aliases": [
-          "Pluto",
-          "Dis Pater"
-        ]
-      }
-    ],
-    [
-      "Hermes",
-      {
-        "type": "deities",
-        "pantheon": "Greek",
-        "description": "Hermes is an Olympian deity considered the herald of the gods, protector of travelers, thieves, merchants, and orators. He moves freely between the worlds of mortal and divine, and is believed to bring dreams to mortals. He is cunning, clever, and a trickster who crosses all boundaries.",
+        "description": "Ethan Hawke (born 1970) is an American actor, author and filmmaker whose career on screen and stage has spanned over four decades. Known for his versatile range of roles—often in art films—and collaborations with director Richard Linklater, he made his film debut in Explorers (1985) and gained fame ",
         "archetypes": [
           "The Trickster",
-          "The Child",
-          "The Self"
+          "The Self",
+          "The Wise Old Man",
+          "The Child"
         ],
         "primary_archetype": "The Trickster",
         "archetype_scores": {
           "The Hero": 0.0,
           "The Shadow": 0.0,
-          "The Wise Old Man": 0.0769,
+          "The Wise Old Man": 0.1562,
           "The Great Mother": 0.0,
-          "The Trickster": 0.4017,
-          "The Anima": 0.0342,
-          "The Child": 0.3333,
-          "The Self": 0.1538
+          "The Trickster": 0.4062,
+          "The Anima": 0.0,
+          "The Child": 0.125,
+          "The Self": 0.3125
         },
-        "aliases": [
-          "Mercury"
-        ]
+        "aliases": []
+      }
+    ],
+    [
+      "Deity",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "A deity or god is a supernatural being considered to have authority over some aspect of the universe and/or life, with many also being considered as sacred and worthy of worship.&#91;1&#93;&#91;2&#93; The Oxford Dictionary of English defines deity as a god or goddess, or anything revered as divine.&",
+        "archetypes": [
+          "The Self",
+          "The Great Mother",
+          "The Trickster",
+          "The Wise Old Man",
+          "The Child"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.1429,
+          "The Great Mother": 0.1905,
+          "The Trickster": 0.1905,
+          "The Anima": 0.0635,
+          "The Child": 0.127,
+          "The Self": 0.2857
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Ancient Greece",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "Ancient Greece (Ancient Greek: Ἑλλάς, romanized:&#160;Hellás) was a northeastern Mediterranean civilization, existing from the Greek Dark Ages of the 12th–9th centuries&#160;BC to the end of classical antiquity (c.&#8201;600 AD), that comprised a loose collection of culturally and linguistically rel",
+        "archetypes": [
+          "The Self",
+          "The Wise Old Man",
+          "The Shadow"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.2045,
+          "The Wise Old Man": 0.2955,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.5
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Acmon (father of Uranus)",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "In Greek mythology, Acmon (Ancient Greek: Ἄκμων) is in some sources the father of Uranus, the personification of the sky, with no mother mentioned. A fragment of Alcman is the first attestation of this parentage, and fragments of several later authors refer to Uranus as Akmonídēs ('son of Acmon'). I",
+        "archetypes": [
+          "The Self",
+          "The Wise Old Man",
+          "The Great Mother",
+          "The Trickster"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.25,
+          "The Great Mother": 0.25,
+          "The Trickster": 0.2222,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.2778
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Acratopotes",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "In Greek mythology, Acratopotes (Ancient Greek: Ἀκρατοπότης), the drinker of unmixed (as in not diluted with water) wine, was a hero worshiped in Munychia in Attica.&#91;1&#93; According to Pausanias, who calls him simply Acratus, he was one of the divine companions of Dionysus,&#91;2&#93; who was w",
+        "archetypes": [
+          "The Self",
+          "The Trickster",
+          "The Wise Old Man",
+          "The Child"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0702,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.2281,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.2456,
+          "The Anima": 0.0,
+          "The Child": 0.1579,
+          "The Self": 0.2982
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Adonis",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "In Greek mythology, Adonis (Ancient Greek: Ἄδωνις, romanized:&#160;Adōnis; Phoenician: 𐤀𐤃𐤍, romanized:&#160;ʾAdón, &#91;'a.dɔː.nis&#93;) was the mortal lover of the goddesses Aphrodite and Persephone. He was considered to be the ideal of male beauty in classical antiquity.",
+        "archetypes": [
+          "The Anima",
+          "The Wise Old Man",
+          "The Great Mother"
+        ],
+        "primary_archetype": "The Anima",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.1818,
+          "The Great Mother": 0.1818,
+          "The Trickster": 0.0,
+          "The Anima": 0.6364,
+          "The Child": 0.0,
+          "The Self": 0.0
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Aegipan",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "Aegipan (Ancient Greek: Αἰγίπαν, Αἰγίπανος, \"Goat-Pan\") was a mythological being, either distinct from or identical to Pan. His story appears to be of late origin.",
+        "archetypes": [
+          "The Trickster",
+          "The Wise Old Man",
+          "The Child"
+        ],
+        "primary_archetype": "The Trickster",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.3077,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.3846,
+          "The Anima": 0.0,
+          "The Child": 0.3077,
+          "The Self": 0.0
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Aeolus (son of Hippotes)",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "In Greek mythology, Aeolus (/ˈiːələs/; Ancient Greek: Αἴολος, romanized:&#160;Aíolos, .mw-parser-output .IPA-label-small{font-size:85%}.mw-parser-output .references .IPA-label-small,.mw-parser-output .infobox .IPA-label-small,.mw-parser-output .navbox .IPA-label-small{font-size:100%}pronounced &#91;",
+        "archetypes": [
+          "The Self",
+          "The Wise Old Man",
+          "The Hero",
+          "The Trickster"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.1471,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.2353,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.1176,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.5
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Aether (mythology)",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "In Greek mythology, Aether, Æther, Aither, or Ether (/ˈiː.θər/; Ancient Greek: Αἰθήρ, .mw-parser-output .IPA-label-small{font-size:85%}.mw-parser-output .references .IPA-label-small,.mw-parser-output .infobox .IPA-label-small,.mw-parser-output .navbox .IPA-label-small{font-size:100%}pronounced &#91;",
+        "archetypes": [
+          "The Self",
+          "The Shadow",
+          "The Wise Old Man"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.3559,
+          "The Wise Old Man": 0.1525,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0508,
+          "The Anima": 0.0,
+          "The Child": 0.0678,
+          "The Self": 0.3729
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Agathodaemon",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "Agathos Daimon (Ancient Greek: ἀγαθός δαίμων, agathós daímōn, lit.&#8201;'noble spirit')&#91;a&#93; originally was a lesser deity (daemon) of classical ancient Greek religion and Graeco-Egyptian religion. In his original Greek form, he served as a household god, to whom, along with Zeus Soter, libat",
+        "archetypes": [
+          "The Self",
+          "The Wise Old Man",
+          "The Child"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0656,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.2951,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0656,
+          "The Anima": 0.0656,
+          "The Child": 0.1311,
+          "The Self": 0.377
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Agon",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "Agon (Ancient Greek: Ἀγών) is the Greek deity who personified conflict, struggle or contest. This could be a contest in athletics, in chariot or horse racing, or in music or literature at a public festival in ancient Greece. Agon is the word-forming element in 'agony', explaining the concept of agon",
+        "archetypes": [
+          "The Wise Old Man",
+          "The Self"
+        ],
+        "primary_archetype": "The Wise Old Man",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.5652,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.4348
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Agreus and Nomios",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "In Greek mythology Agreus or Argeus (Ancient Greek: Ἀγρεύς, Ἀργεύς means 'hunter' or 'wild'&#91;1&#93;) and his brother Nomios (Νόμιος means \"shepherd\") are two of the Pans, creatures multiplied from the god Pan.",
+        "archetypes": [
+          "The Trickster",
+          "The Wise Old Man"
+        ],
+        "primary_archetype": "The Trickster",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.4444,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.5556,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.0
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Aion (deity)",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "Aion (from Hellenistic Greek: αἰών, romanized:&#160;aión, lit.&#8201;'long period of time', &#91;ai̯ˈɔːn&#93;) is a Hellenistic deity associated with time, the orb or circle encompassing the universe, and the zodiac. The \"time\" which Aion represents is perpetual, unbounded, ritual, and cyclic: The f",
+        "archetypes": [
+          "The Self",
+          "The Shadow",
+          "The Trickster"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.1667,
+          "The Wise Old Man": 0.0,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.1333,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.7
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Alastor",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "Alastor (/əˈlæstər, -tɔːr/; Ancient Greek: Ἀλάστωρ, lit.&#8201;'avenging spirit')&#91;1&#93; refers to a number of people and concepts in Greek mythology:&#91;2&#93;",
+        "archetypes": [
+          "The Wise Old Man",
+          "The Anima"
+        ],
+        "primary_archetype": "The Wise Old Man",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.5,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.5,
+          "The Child": 0.0,
+          "The Self": 0.0
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Alpheus (deity)",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "Alpheus or Alpheios (/ælˈfiːəs/; Ancient Greek: Ἀλφειός, lit.&#8201;'whitish'), was in Greek mythology a river&#91;2&#93; (the modern Alfeios River) and river god.&#91;3&#93;",
+        "archetypes": [
+          "The Wise Old Man"
+        ],
+        "primary_archetype": "The Wise Old Man",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 1.0,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.0
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Anemoi",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "In ancient Greek religion and myth, the Anemoi (Ancient Greek: Ἄνεμοι, lit.&#8201;'Winds') were wind gods who were each ascribed a cardinal direction from which their respective winds came (see Classical compass winds), and were each associated with various nature, seasons and weather conditions. Th",
+        "archetypes": [
+          "The Wise Old Man",
+          "The Self",
+          "The Great Mother",
+          "The Anima",
+          "The Trickster",
+          "The Child"
+        ],
+        "primary_archetype": "The Wise Old Man",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.2955,
+          "The Great Mother": 0.1818,
+          "The Trickster": 0.0909,
+          "The Anima": 0.1136,
+          "The Child": 0.0909,
+          "The Self": 0.2273
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Anytos",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "Anytos or Anytus (Ancient Greek: Ἄνυτος, romanized:&#160;Ánytos) was one of the Titans of Greek mythology.&#91;1&#93; He was supposed to have raised Despoina, and in Arcadia during Pausanias' time the two were represented by statues in a temple near Acacesium.",
+        "archetypes": [
+          "The Wise Old Man",
+          "The Self"
+        ],
+        "primary_archetype": "The Wise Old Man",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.6429,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.3571
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Aoös (mythology)",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "Aoös (Greek Αώος, pronounced aO-os) was another name for god Adonis and also the mythic son of Eos and Cephalus who became the first king of Cyprus.&#91;1&#93;&#91;2&#93; Aoös' name was given to a river and a mountain (Aoön) of Cyprus. According to mythology his brother was Paphos, the founder of th",
+        "archetypes": [
+          "The Anima",
+          "The Trickster"
+        ],
+        "primary_archetype": "The Anima",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.0,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.4444,
+          "The Anima": 0.5556,
+          "The Child": 0.0,
+          "The Self": 0.0
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Apis (deity)",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "In ancient Egyptian religion, Apis or Hapis,&#91;a&#93; alternatively spelled Hapi-ankh, was a sacred bull or multiple sacred bulls&#91;1&#93; worshiped in the Memphis region, identified as the son of Hathor, a primary deity in the pantheon of ancient Egypt. Initially, he was assigned a significant ",
+        "archetypes": [
+          "The Self",
+          "The Wise Old Man",
+          "The Anima",
+          "The Child",
+          "The Trickster"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.1702,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.1064,
+          "The Anima": 0.1702,
+          "The Child": 0.1702,
+          "The Self": 0.383
+        },
+        "aliases": []
       }
     ],
     [
@@ -172,91 +484,9 @@
       {
         "type": "deities",
         "pantheon": "Greek",
-        "description": "Apollo is one of the Olympian deities, god of the sun, light, music, poetry, art, prophecy, truth, archery, plague, and healing. He is the son of Zeus and Leto, and has a twin sister, Artemis. Born young and radiant, he is both destroyer and healer, a child of divine power.",
+        "description": "In ancient Greek religion and mythology, Apollo&#91;a&#93; is one of the Olympian deities. His numerous functions include healing, prophecy, music, poetry, and archery. He is the son of Zeus and Leto, and the twin brother of Artemis, goddess of the hunt. He is considered to be the most beautiful god",
         "archetypes": [
           "The Child",
-          "The Wise Old Man",
-          "The Self"
-        ],
-        "primary_archetype": "The Child",
-        "archetype_scores": {
-          "The Hero": 0.0,
-          "The Shadow": 0.0,
-          "The Wise Old Man": 0.1772,
-          "The Great Mother": 0.0,
-          "The Trickster": 0.0,
-          "The Anima": 0.0,
-          "The Child": 0.6456,
-          "The Self": 0.1772
-        },
-        "aliases": [
-          "Phoebus"
-        ]
-      }
-    ],
-    [
-      "Artemis",
-      {
-        "type": "deities",
-        "pantheon": "Greek",
-        "description": "Artemis is the goddess of the hunt, wilderness, animals, the Moon, and chastity. She hunts with silver arrows and is accompanied by hunting dogs. As goddess of the Moon she rules the night, the wild, and the liminal spaces between civilization and nature.",
-        "archetypes": [
-          "The Trickster",
-          "The Great Mother",
-          "The Shadow"
-        ],
-        "primary_archetype": "The Trickster",
-        "archetype_scores": {
-          "The Hero": 0.0,
-          "The Shadow": 0.1379,
-          "The Wise Old Man": 0.0,
-          "The Great Mother": 0.4138,
-          "The Trickster": 0.4483,
-          "The Anima": 0.0,
-          "The Child": 0.0,
-          "The Self": 0.0
-        },
-        "aliases": [
-          "Diana"
-        ]
-      }
-    ],
-    [
-      "Aphrodite",
-      {
-        "type": "deities",
-        "pantheon": "Greek",
-        "description": "Aphrodite is an ancient Greek goddess associated with love, lust, pleasure, passion, procreation, and beauty. She was born from sea-foam near Paphos, Cyprus, emerging fully formed from the waves. She embodies the animating soul of love and desire that drives all creation.",
-        "archetypes": [
-          "The Anima",
-          "The Great Mother"
-        ],
-        "primary_archetype": "The Anima",
-        "archetype_scores": {
-          "The Hero": 0.0,
-          "The Shadow": 0.0,
-          "The Wise Old Man": 0.0563,
-          "The Great Mother": 0.169,
-          "The Trickster": 0.0563,
-          "The Anima": 0.6056,
-          "The Child": 0.0563,
-          "The Self": 0.0563
-        },
-        "aliases": [
-          "Venus",
-          "Cytherea"
-        ]
-      }
-    ],
-    [
-      "Dionysus",
-      {
-        "type": "deities",
-        "pantheon": "Greek",
-        "description": "Dionysus is the god of the grape harvest, winemaking, fertility, insanity, ritual madness, religious ecstasy, festivity, and theatre. Born twice — first from Semele, then from Zeus's thigh — he is the eternal divine child of transformation, ecstasy, and dissolution of ego boundaries.",
-        "archetypes": [
-          "The Child",
-          "The Trickster",
           "The Self",
           "The Wise Old Man"
         ],
@@ -264,53 +494,182 @@
         "archetype_scores": {
           "The Hero": 0.0,
           "The Shadow": 0.0,
-          "The Wise Old Man": 0.1069,
-          "The Great Mother": 0.0611,
-          "The Trickster": 0.2672,
-          "The Anima": 0.0305,
-          "The Child": 0.3588,
-          "The Self": 0.1756
+          "The Wise Old Man": 0.1552,
+          "The Great Mother": 0.069,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.6034,
+          "The Self": 0.1724
         },
-        "aliases": [
-          "Bacchus",
-          "Liber"
-        ]
+        "aliases": []
       }
     ],
     [
-      "Ares",
+      "Apotropaei",
       {
         "type": "deities",
         "pantheon": "Greek",
-        "description": "Ares is the Greek god of war, courage, and violence. He is one of the Twelve Olympians, the son of Zeus and Hera. He represents the physical, violent, and untamed aspect of war — pure martial fury rather than strategy.",
+        "description": "Apotropaei (Greek: Ἀποτρόπαιοι) were in ancient Greece certain divinities, by whose assistance the Greeks believed that they were able to avert any threatening danger or calamity—that is, figures of apotropaic magic. Their statues stood at Sicyon near the tomb of Epopeus.&#91;1&#93; The gods Apollo,",
         "archetypes": [
           "The Self",
           "The Wise Old Man",
-          "The Hero",
-          "The Child"
+          "The Child",
+          "The Trickster"
         ],
         "primary_archetype": "The Self",
         "archetype_scores": {
-          "The Hero": 0.1212,
+          "The Hero": 0.0,
           "The Shadow": 0.0,
-          "The Wise Old Man": 0.303,
+          "The Wise Old Man": 0.3611,
           "The Great Mother": 0.0,
-          "The Trickster": 0.0,
+          "The Trickster": 0.1111,
           "The Anima": 0.0,
-          "The Child": 0.1212,
-          "The Self": 0.4545
+          "The Child": 0.1389,
+          "The Self": 0.3889
         },
-        "aliases": [
-          "Mars"
-        ]
+        "aliases": []
       }
     ],
     [
-      "Hephaestus",
+      "Aristaeus",
       {
         "type": "deities",
         "pantheon": "Greek",
-        "description": "Hephaestus is the god of fire, metalworking, stone masonry, forges, the art of sculpture, technology, and blacksmiths. He was cast off Olympus by his mother Hera due to his deformity. The divine craftsman who creates the tools and weapons of the gods.",
+        "description": "Aristaeus (/ærɪˈstiːəs/; Ancient Greek: Ἀρισταῖος, romanized:&#160;Aristaios) was the mythological culture hero credited with the discovery of many rural useful arts and handicrafts, including beekeeping.&#91;1&#93; He was the son of the huntress Cyrene and Apollo.",
+        "archetypes": [
+          "The Wise Old Man",
+          "The Child",
+          "The Self",
+          "The Hero",
+          "The Trickster"
+        ],
+        "primary_archetype": "The Wise Old Man",
+        "archetype_scores": {
+          "The Hero": 0.1481,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.3333,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.1481,
+          "The Anima": 0.0,
+          "The Child": 0.1852,
+          "The Self": 0.1852
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Asclepius",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "Asclepius (/æsˈkliːpiəs/; Ancient Greek: Ἀσκληπιός Asklēpiós &#91;asklɛːpiós&#93;; Latin: Aesculapius) is a hero and god of medicine in ancient Greek religion and mythology. He is the son of Apollo and Coronis, or Arsinoe, or of Apollo alone. Asclepius represents the healing aspect of the medical ar",
+        "archetypes": [
+          "The Wise Old Man",
+          "The Great Mother",
+          "The Self",
+          "The Trickster",
+          "The Child",
+          "The Hero"
+        ],
+        "primary_archetype": "The Wise Old Man",
+        "archetype_scores": {
+          "The Hero": 0.0816,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.2653,
+          "The Great Mother": 0.2449,
+          "The Trickster": 0.102,
+          "The Anima": 0.0,
+          "The Child": 0.102,
+          "The Self": 0.2041
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Astraeus",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "In Greek mythology, Astraeus (/əˈstriːəs/) or Astraios (Ancient Greek: Ἀστραῖος, romanized:&#160;Astraîos, lit.&#8201;'starry'&#91;1&#93;) is the son of Crius and Eurybia and the consort of Eos (goddess of the dawn). He is said to be the father of the winds.",
+        "archetypes": [
+          "The Wise Old Man",
+          "The Self",
+          "The Anima",
+          "The Great Mother",
+          "The Child"
+        ],
+        "primary_archetype": "The Wise Old Man",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.3,
+          "The Great Mother": 0.1333,
+          "The Trickster": 0.0,
+          "The Anima": 0.1667,
+          "The Child": 0.1333,
+          "The Self": 0.2667
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Atlas (mythology)",
+      {
+        "type": "deities",
+        "pantheon": "Greek",
+        "description": "In Greek mythology, Atlas (/ˈætləs/; Ancient Greek: Ἄτλας, romanized:&#160;Átlas) is a Titan condemned to hold up the heavens or sky for eternity after the Titanomachy. Atlas also plays a role in the myths of two of the greatest Greek heroes: Heracles (Hercules in Roman mythology) and Perseus. Accor",
+        "archetypes": [
+          "The Hero",
+          "The Wise Old Man",
+          "The Trickster",
+          "The Great Mother",
+          "The Self"
+        ],
+        "primary_archetype": "The Hero",
+        "archetype_scores": {
+          "The Hero": 0.2979,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.2766,
+          "The Great Mother": 0.1489,
+          "The Trickster": 0.1702,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.1064
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Hero",
+      {
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "A hero (feminine: heroine) is a real person or fictional character who, in the face of danger, combats adversity through feats of ingenuity, courage, or strength. The original hero type of classical epics did such things for the sake of glory and honor. Post-classical and modern heroes, on the other",
+        "archetypes": [
+          "The Hero",
+          "The Self",
+          "The Wise Old Man"
+        ],
+        "primary_archetype": "The Hero",
+        "archetype_scores": {
+          "The Hero": 0.4706,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.098,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0784,
+          "The Anima": 0.0784,
+          "The Child": 0.0784,
+          "The Self": 0.1961
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Greek mythology",
+      {
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "Greek mythology is the body of myths originally told by the ancient Greeks, and a genre of ancient Greek folklore, today absorbed alongside Roman mythology into the broader designation of classical mythology. These stories concern the origin and nature of the world, the lives of deities, and heroes ",
         "archetypes": [
           "The Wise Old Man",
           "The Self",
@@ -319,172 +678,63 @@
         ],
         "primary_archetype": "The Wise Old Man",
         "archetype_scores": {
-          "The Hero": 0.0,
+          "The Hero": 0.0784,
           "The Shadow": 0.0,
-          "The Wise Old Man": 0.3462,
-          "The Great Mother": 0.1538,
+          "The Wise Old Man": 0.3333,
+          "The Great Mother": 0.1569,
           "The Trickster": 0.0,
           "The Anima": 0.0,
-          "The Child": 0.1538,
-          "The Self": 0.3462
-        },
-        "aliases": [
-          "Vulcan"
-        ]
-      }
-    ],
-    [
-      "Persephone",
-      {
-        "type": "deities",
-        "pantheon": "Greek",
-        "description": "Persephone is the queen of the underworld and goddess of spring growth. She is the daughter of Zeus and the harvest goddess Demeter. Her abduction by Hades and time spent in the underworld represents the soul's descent into darkness, the death of innocence, and rebirth.",
-        "archetypes": [
-          "The Anima",
-          "The Shadow",
-          "The Great Mother"
-        ],
-        "primary_archetype": "The Anima",
-        "archetype_scores": {
-          "The Hero": 0.0,
-          "The Shadow": 0.2449,
-          "The Wise Old Man": 0.051,
-          "The Great Mother": 0.2143,
-          "The Trickster": 0.0,
-          "The Anima": 0.398,
-          "The Child": 0.0408,
-          "The Self": 0.051
-        },
-        "aliases": [
-          "Proserpina",
-          "Kore"
-        ]
-      }
-    ],
-    [
-      "Demeter",
-      {
-        "type": "deities",
-        "pantheon": "Greek",
-        "description": "Demeter is the goddess of the harvest and agriculture, presiding over grains and the fertility of the earth. She is a daughter of Cronus and Rhea. She searched desperately for her daughter Persephone who was abducted by Hades, causing the earth to wither during her grief.",
-        "archetypes": [
-          "The Great Mother",
-          "The Self"
-        ],
-        "primary_archetype": "The Great Mother",
-        "archetype_scores": {
-          "The Hero": 0.0,
-          "The Shadow": 0.0562,
-          "The Wise Old Man": 0.0562,
-          "The Great Mother": 0.6742,
-          "The Trickster": 0.0449,
-          "The Anima": 0.0562,
-          "The Child": 0.0,
-          "The Self": 0.1124
-        },
-        "aliases": [
-          "Ceres"
-        ]
-      }
-    ],
-    [
-      "Gaia",
-      {
-        "type": "deities",
-        "pantheon": "Greek",
-        "description": "Gaia is the personification of the Earth and one of the Greek primordial deities. She is the ancestral mother of all life: the primal Mother Earth goddess. She is the immediate parent of Uranus, from whose union she bore the Titans, the Cyclopes, and the Giants.",
-        "archetypes": [
-          "The Great Mother",
-          "The Self"
-        ],
-        "primary_archetype": "The Great Mother",
-        "archetype_scores": {
-          "The Hero": 0.0,
-          "The Shadow": 0.0,
-          "The Wise Old Man": 0.0658,
-          "The Great Mother": 0.8158,
-          "The Trickster": 0.0,
-          "The Anima": 0.0,
-          "The Child": 0.0,
-          "The Self": 0.1184
-        },
-        "aliases": [
-          "Terra",
-          "Ge"
-        ]
-      }
-    ],
-    [
-      "Hercules",
-      {
-        "type": "heroes",
-        "pantheon": "Greek",
-        "description": "Hercules is a Roman hero and god, the equivalent of the Greek divine hero Heracles. He was the son of the god Jupiter and the mortal Alcmene. He was famed for his strength and his twelve labors — impossible tasks imposed by King Eurystheus — which represent the hero's transformative journey through ",
-        "archetypes": [
-          "The Hero",
-          "The Self",
-          "The Wise Old Man"
-        ],
-        "primary_archetype": "The Hero",
-        "archetype_scores": {
-          "The Hero": 0.7,
-          "The Shadow": 0.0,
-          "The Wise Old Man": 0.1,
-          "The Great Mother": 0.0,
-          "The Trickster": 0.0,
-          "The Anima": 0.0,
-          "The Child": 0.0444,
-          "The Self": 0.1556
-        },
-        "aliases": [
-          "Heracles",
-          "Alcides"
-        ]
-      }
-    ],
-    [
-      "Perseus",
-      {
-        "type": "heroes",
-        "pantheon": "Greek",
-        "description": "Perseus is the legendary founder of Mycenae and the Perseid dynasty, son of Zeus and the mortal Danae. His heroic deeds include killing the Gorgon Medusa, rescuing Andromeda from a sea monster, and using the severed head of Medusa as a weapon. He is a quintessential champion who defeats the monstrou",
-        "archetypes": [
-          "The Hero",
-          "The Wise Old Man",
-          "The Self"
-        ],
-        "primary_archetype": "The Hero",
-        "archetype_scores": {
-          "The Hero": 0.8113,
-          "The Shadow": 0.0,
-          "The Wise Old Man": 0.0943,
-          "The Great Mother": 0.0,
-          "The Trickster": 0.0,
-          "The Anima": 0.0,
-          "The Child": 0.0,
-          "The Self": 0.0943
+          "The Child": 0.1569,
+          "The Self": 0.2745
         },
         "aliases": []
       }
     ],
     [
-      "Theseus",
+      "Abderus",
       {
         "type": "heroes",
         "pantheon": "Greek",
-        "description": "Theseus was the legendary hero of Athens, known for killing the Minotaur imprisoned in the Labyrinth of Crete. The son of Aegeus, King of Athens. With Ariadne's thread he navigated the maze, slew the monster within, and returned as a champion. He embodies the hero who brings order to chaos.",
+        "description": "In Greek mythology, Abderus or Abderos (Ancient Greek: Ἄβδηρος, romanized:&#160;Ábdēros) was a divine hero, reputed by some to be one of Heracles' lovers (eromenoi), and reputedly a son of Hermes by some accounts, and eponym of Abdera, Thrace.&#91;1&#93;&#91;2&#93;",
         "archetypes": [
-          "The Hero",
-          "The Trickster"
+          "The Child",
+          "The Wise Old Man",
+          "The Self",
+          "The Trickster",
+          "The Hero"
         ],
-        "primary_archetype": "The Hero",
+        "primary_archetype": "The Child",
         "archetype_scores": {
-          "The Hero": 0.6912,
-          "The Shadow": 0.0588,
-          "The Wise Old Man": 0.0,
+          "The Hero": 0.0889,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.2889,
           "The Great Mother": 0.0,
-          "The Trickster": 0.1765,
-          "The Anima": 0.0735,
+          "The Trickster": 0.1111,
+          "The Anima": 0.0,
+          "The Child": 0.3111,
+          "The Self": 0.2
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Academus",
+      {
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "Academus or Academos (/ˌækəˈdiːməs/; Ancient Greek: Ἀκάδημος, romanized:&#160;Akádemos), also Hecademus (Ancient Greek: Ἑκάδημος, romanized:&#160;Hekádemos), was an Attic hero in Greek mythology. The site of Academus, either a grove or a park, which became known as Akademeia, lies on the Cephissus, ",
+        "archetypes": [
+          "The Wise Old Man",
+          "The Hero"
+        ],
+        "primary_archetype": "The Wise Old Man",
+        "archetype_scores": {
+          "The Hero": 0.3333,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.6667,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
           "The Child": 0.0,
           "The Self": 0.0
         },
@@ -496,57 +746,134 @@
       {
         "type": "heroes",
         "pantheon": "Greek",
-        "description": "Achilles is a hero of the Trojan War and the central character of Homer's Iliad, the greatest warrior of all the Greeks. The son of Nereid Thetis and Peleus, he was dipped in the River Styx as an infant to make him invulnerable except for his heel. He embodies glorious warrior heroism and tragic fat",
+        "description": "In Greek mythology, Achilles (/əˈkɪliːz/&#32;ⓘ ə-KIL-eez) or Achilleus (Ancient Greek: Ἀχιλλεύς, romanized:&#160;Achilleús) was a hero of the Trojan War who was known as being the greatest of all the Greek warriors. The central character in Homer's Iliad, he was the son of the Nereid Thetis and Pele",
         "archetypes": [
           "The Hero",
-          "The Self"
+          "The Wise Old Man",
+          "The Self",
+          "The Trickster"
         ],
         "primary_archetype": "The Hero",
         "archetype_scores": {
-          "The Hero": 0.6892,
+          "The Hero": 0.5119,
           "The Shadow": 0.0,
-          "The Wise Old Man": 0.0676,
+          "The Wise Old Man": 0.1667,
           "The Great Mother": 0.0,
-          "The Trickster": 0.0,
+          "The Trickster": 0.1071,
           "The Anima": 0.0,
-          "The Child": 0.0541,
-          "The Self": 0.1892
+          "The Child": 0.0476,
+          "The Self": 0.1667
         },
         "aliases": []
       }
     ],
     [
-      "Odysseus",
+      "Aeneas",
       {
         "type": "heroes",
         "pantheon": "Greek",
-        "description": "Odysseus is the legendary Greek king of Ithaca and hero of Homer's Odyssey. Famous for his intellectual brilliance, guile, and versatility — the hero of the mind rather than brute strength. His ten-year journey home embodies the transformative power of the quest and the cunning hero's triumph.",
+        "description": "In Greco-Roman mythology, Aeneas (/ɪˈniːəs/ in-EE-əs;&#91;1&#93; .mw-parser-output .IPA-label-small{font-size:85%}.mw-parser-output .references .IPA-label-small,.mw-parser-output .infobox .IPA-label-small,.mw-parser-output .navbox .IPA-label-small{font-size:100%}Classical Latin: &#91;ae̯ˈneːaːs&#93;",
         "archetypes": [
+          "The Self",
+          "The Wise Old Man",
+          "The Anima",
           "The Hero",
-          "The Self"
+          "The Great Mother"
         ],
-        "primary_archetype": "The Hero",
+        "primary_archetype": "The Self",
         "archetype_scores": {
-          "The Hero": 0.7564,
+          "The Hero": 0.0909,
           "The Shadow": 0.0,
-          "The Wise Old Man": 0.0641,
-          "The Great Mother": 0.0,
-          "The Trickster": 0.0513,
-          "The Anima": 0.0,
+          "The Wise Old Man": 0.2045,
+          "The Great Mother": 0.0909,
+          "The Trickster": 0.0,
+          "The Anima": 0.1136,
           "The Child": 0.0,
-          "The Self": 0.1282
+          "The Self": 0.5
         },
-        "aliases": [
-          "Ulysses"
-        ]
+        "aliases": []
       }
     ],
     [
-      "Odin",
+      "Agamemnon",
       {
-        "type": "deities",
-        "pantheon": "Norse",
-        "description": "Odin is the chief god in Germanic paganism, the Allfather. He gave his eye to Mimir to gain wisdom, and hung himself on the world tree Yggdrasil for nine days to discover the runes. He is associated with wisdom, healing, death, royalty, knowledge, war, poetry, and magic. The supreme wise old sage of",
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "In Greek mythology, Agamemnon (/æɡəˈmɛmnɒn/&#32;ⓘ; Ancient Greek: Ἀγαμέμνων Agamémnōn) was a king of Mycenae who commanded the Achaeans during the Trojan War. He was the son (or grandson) of King Atreus and Queen Aerope, the brother of Menelaus, the husband of Clytemnestra, and the father of Iphigen",
+        "archetypes": [
+          "The Self",
+          "The Wise Old Man"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.4737,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.5263
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Ajax the Great",
+      {
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "Ajax (/ˈeɪdʒæks/) or Aias (/ˈaɪ.əs/; Ancient Greek: Αἴας, romanized:&#160;Aíās &#91;aí̯.aːs&#93;, gen. Αἴαντος Aíantos) is a Greek mythological hero, the son of King Telamon and Periboea,&#91;1&#93; and the half-brother of Teucer.&#91;2&#93; He plays an important role in the Trojan War, and is portr",
+        "archetypes": [
+          "The Hero",
+          "The Self",
+          "The Wise Old Man"
+        ],
+        "primary_archetype": "The Hero",
+        "archetype_scores": {
+          "The Hero": 0.525,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.225,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.25
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Ajax the Lesser",
+      {
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "Ajax (Ancient Greek: Αἴας, romanized:&#160;Aíās) was a Greek mythological hero, son of Oileus, the king of Locris. He was called the \"Ajax the Less\", the \"lesser\" or \"Locrian\" Ajax,&#91;1&#93; to distinguish him from Ajax the Great, son of Telamon. He was the leader of the Locrian contingent during ",
+        "archetypes": [
+          "The Self",
+          "The Hero",
+          "The Wise Old Man"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.2353,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.2353,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.5294
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Alcathous (son of Pelops)",
+      {
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "Alcathous or Alcathoos (/ælˈkæθoʊ.əs/; Ancient Greek: Ἀλκάθοος) was in Greek mythology, a Pisatian prince who became a king of Megara.",
         "archetypes": [
           "The Wise Old Man",
           "The Self"
@@ -554,39 +881,33 @@
         "primary_archetype": "The Wise Old Man",
         "archetype_scores": {
           "The Hero": 0.0,
-          "The Shadow": 0.0465,
-          "The Wise Old Man": 0.7093,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.6429,
           "The Great Mother": 0.0,
-          "The Trickster": 0.0465,
+          "The Trickster": 0.0,
           "The Anima": 0.0,
           "The Child": 0.0,
-          "The Self": 0.1977
+          "The Self": 0.3571
         },
-        "aliases": [
-          "Woden",
-          "Wotan",
-          "Allfather"
-        ]
+        "aliases": []
       }
     ],
     [
-      "Thor",
+      "Alcon (mythology)",
       {
-        "type": "deities",
-        "pantheon": "Norse",
-        "description": "Thor is the son of Odin, associated with strength, storms, thunder, lightning, and the protection of mankind. His hammer Mjolnir is his iconic weapon. He is depicted as a red-bearded warrior riding a chariot pulled by two goats. He is the great defender and champion of Asgard against the giants.",
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "The name Alcon (/ˈælkɒn/; Ancient Greek: Ἄλκων) or Alco can refer to a number of people from classical mythology:",
         "archetypes": [
-          "The Hero",
-          "The Wise Old Man",
-          "The Trickster"
+          "The Wise Old Man"
         ],
-        "primary_archetype": "The Hero",
+        "primary_archetype": "The Wise Old Man",
         "archetype_scores": {
-          "The Hero": 0.5714,
+          "The Hero": 0.0,
           "The Shadow": 0.0,
-          "The Wise Old Man": 0.2381,
+          "The Wise Old Man": 1.0,
           "The Great Mother": 0.0,
-          "The Trickster": 0.1905,
+          "The Trickster": 0.0,
           "The Anima": 0.0,
           "The Child": 0.0,
           "The Self": 0.0
@@ -595,63 +916,88 @@
       }
     ],
     [
-      "Loki",
+      "Alexanor",
       {
-        "type": "deities",
-        "pantheon": "Norse",
-        "description": "Loki is a shape-shifter and trickster god in Norse mythology. He appears in the form of a salmon, a mare, a fly, and an elderly woman. He is cunning and clever, causing mischief. He orchestrated the death of the beloved Baldr and was bound in chains as punishment, awaiting Ragnarok.",
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "In Greek mythology, Alexanor (Ancient Greek: Ἀλεξάνωρ) a son of Machaon, and grandson of the Greek god Asclepius.",
         "archetypes": [
-          "The Trickster",
-          "The Shadow",
+          "The Wise Old Man",
           "The Self"
         ],
-        "primary_archetype": "The Trickster",
+        "primary_archetype": "The Wise Old Man",
         "archetype_scores": {
           "The Hero": 0.0,
-          "The Shadow": 0.3333,
-          "The Wise Old Man": 0.0769,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.6429,
           "The Great Mother": 0.0,
-          "The Trickster": 0.4701,
-          "The Anima": 0.0342,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
           "The Child": 0.0,
-          "The Self": 0.0855
+          "The Self": 0.3571
         },
         "aliases": []
       }
     ],
     [
-      "Freya",
+      "Amphiaraus",
       {
-        "type": "deities",
-        "pantheon": "Norse",
-        "description": "Freya is a goddess associated with love, beauty, fertility, sex, war, gold, and seidr magic in Norse mythology. She owns the necklace Brisingamen, rides a chariot pulled by two cats, and possesses a cloak of falcon feathers. She is a leader of the Valkyries and receives half of those slain in battle",
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "Amphiaraus or Amphiaraos (/ˌæmfiəˈreɪəs/; Ancient Greek: Ἀμφιάραος or Ἀμφιάρεως, romanized:&#160;Amphiáraos or Amphiáreos, lit.&#8201;'very sacred' or 'one who brings prayers'&#91;1&#93;) was in Greek mythology the son of Oicles, a seer, and one of the leaders of the Seven against Thebes. Amphiaraus",
         "archetypes": [
-          "The Great Mother",
-          "The Trickster",
-          "The Anima"
+          "The Self",
+          "The Wise Old Man",
+          "The Anima",
+          "The Shadow",
+          "The Trickster"
         ],
-        "primary_archetype": "The Great Mother",
+        "primary_archetype": "The Self",
         "archetype_scores": {
           "The Hero": 0.0,
-          "The Shadow": 0.0,
-          "The Wise Old Man": 0.0,
-          "The Great Mother": 0.5,
-          "The Trickster": 0.25,
-          "The Anima": 0.25,
+          "The Shadow": 0.1,
+          "The Wise Old Man": 0.225,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.1,
+          "The Anima": 0.225,
           "The Child": 0.0,
-          "The Self": 0.0
+          "The Self": 0.35
         },
-        "aliases": [
-          "Freyja"
-        ]
+        "aliases": []
       }
     ],
     [
-      "Ra",
+      "Anagyros (hero)",
       {
-        "type": "deities",
-        "pantheon": "Egyptian",
-        "description": "Ra or Re was the ancient Egyptian deity of the Sun. By the Fifth Dynasty he had become one of the most important gods in ancient Egyptian religion. Ra was believed to rule in all parts of the created world — the sky, the earth, and the underworld. He represents the totality of divine cosmic order an",
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "In ancient Greek religion and mythology, Anagyros (Ancient Greek: Ἀνάγυρος, romanized:&#160;Anáguros) is the eponymous hero of the deme of Anagyrous in Attica, worshipped locally as a lesser deity or a hero. A single tale is attributed to him, in which he punishes a family for cutting down trees fro",
+        "archetypes": [
+          "The Self",
+          "The Hero",
+          "The Wise Old Man",
+          "The Anima"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.2759,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.2759,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.1379,
+          "The Child": 0.0,
+          "The Self": 0.3103
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Andropompus",
+      {
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "In Greek mythology, Andropompus (Ancient Greek: Ἀνδρόπομπος) was one of the descendants of Neleus, king of Thessaly,&#91;1&#93; as son of Penthilus and Anchirhoe.&#91;2&#93; He was the father of King Melanthus&#91;3&#93; of Athens.",
         "archetypes": [
           "The Self",
           "The Wise Old Man"
@@ -659,63 +1005,82 @@
         "primary_archetype": "The Self",
         "archetype_scores": {
           "The Hero": 0.0,
-          "The Shadow": 0.0348,
-          "The Wise Old Man": 0.4087,
-          "The Great Mother": 0.0348,
-          "The Trickster": 0.0,
-          "The Anima": 0.0,
-          "The Child": 0.0348,
-          "The Self": 0.487
-        },
-        "aliases": [
-          "Re",
-          "Amun-Ra"
-        ]
-      }
-    ],
-    [
-      "Isis",
-      {
-        "type": "deities",
-        "pantheon": "Egyptian",
-        "description": "Isis is a major goddess in ancient Egyptian religion whose worship spread throughout the Greco-Roman world. She was revered as the ideal mother and wife, and as the patroness of nature and magic. She reassembled the body of Osiris and brought him back to life, embodying the nurturing Great Mother.",
-        "archetypes": [
-          "The Great Mother"
-        ],
-        "primary_archetype": "The Great Mother",
-        "archetype_scores": {
-          "The Hero": 0.0,
           "The Shadow": 0.0,
-          "The Wise Old Man": 0.0625,
-          "The Great Mother": 0.8594,
+          "The Wise Old Man": 0.4444,
+          "The Great Mother": 0.0,
           "The Trickster": 0.0,
           "The Anima": 0.0,
           "The Child": 0.0,
-          "The Self": 0.0781
+          "The Self": 0.5556
         },
-        "aliases": [
-          "Aset"
-        ]
+        "aliases": []
       }
     ],
     [
-      "Medusa",
+      "Antilochus",
       {
-        "type": "monsters",
+        "type": "heroes",
         "pantheon": "Greek",
-        "description": "Medusa was one of the three Gorgons in Greek mythology, a chthonic monster with living venomous snakes in place of hair. Gazing directly upon her would turn onlookers to stone. She was killed by Perseus, who used her severed head as a weapon — the shadow enemy the hero must face and overcome.",
+        "description": "In Greek mythology, Antilochus (/ænˈtɪləkəs/; Ancient Greek: Ἀντίλοχος Antílokhos) was a prince of Pylos and one of the Achaeans in the Trojan War. He was the youngest prince to command troops.",
         "archetypes": [
-          "The Hero",
-          "The Shadow",
+          "The Wise Old Man",
+          "The Child"
+        ],
+        "primary_archetype": "The Wise Old Man",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.5,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.5,
+          "The Self": 0.0
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Aratus (mythology)",
+      {
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "Aratus (Ancient Greek: Ἄρατος) was in Greek mythology the son of the god Asclepius and the mortal Sicyonian woman Aristodeme. He was half-brother to Aceso, Aegle, Hygieia, Iaso, Panacea, Machaon, Podalirius, and Telesphoros.&#91;citation needed&#93;",
+        "archetypes": [
+          "The Self",
+          "The Wise Old Man",
           "The Trickster"
         ],
-        "primary_archetype": "The Hero",
+        "primary_archetype": "The Self",
         "archetype_scores": {
-          "The Hero": 0.5294,
-          "The Shadow": 0.2353,
-          "The Wise Old Man": 0.0,
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.375,
           "The Great Mother": 0.0,
-          "The Trickster": 0.2353,
+          "The Trickster": 0.2083,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.4167
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Asius (mythology)",
+      {
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "In Greek mythology, Asius (Ancient Greek: Ἄσιος, Asios) refers to three people who fought during the Trojan War:",
+        "archetypes": [
+          "The Wise Old Man"
+        ],
+        "primary_archetype": "The Wise Old Man",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 1.0,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
           "The Anima": 0.0,
           "The Child": 0.0,
           "The Self": 0.0
@@ -724,113 +1089,161 @@
       }
     ],
     [
-      "Cerberus",
+      "Asteropaios",
       {
-        "type": "monsters",
+        "type": "heroes",
         "pantheon": "Greek",
-        "description": "Cerberus is a multi-headed dog in Greek and Roman mythology that guards the gates of the Underworld to prevent the dead from leaving. He was the offspring of the monsters Typhon and Echidna. He typically has three heads, a serpent for a tail, and snakes protruding from his body.",
+        "description": "In the Iliad, Asteropaios (/ˌæstərəˈpiːəs/; Ancient Greek: Ἀστεροπαῖος, romanized:&#160;Asteropaíos; Latin: Asteropaeus) was a leader of the Trojan-allied Paeonians along with fellow warrior Pyraechmes.",
         "archetypes": [
-          "The Shadow",
-          "The Child",
-          "The Self"
+          "The Self",
+          "The Wise Old Man",
+          "The Hero",
+          "The Trickster"
         ],
-        "primary_archetype": "The Shadow",
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.129,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.2903,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.129,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.4516
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Atalanta",
+      {
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "Atalanta (/ˌætəˈlæntə/; Ancient Greek: Ἀταλάντη, romanized:&#160;Atalántē, lit.&#8201;'equal in weight') is a heroine in Greek mythology. There are two versions of the huntress Atalanta: one from Arcadia,&#91;2&#93; whose parents were Iasus and Clymene&#91;3&#93;&#91;4&#93; and who is primarily know",
+        "archetypes": [
+          "The Wise Old Man",
+          "The Self",
+          "The Hero"
+        ],
+        "primary_archetype": "The Wise Old Man",
+        "archetype_scores": {
+          "The Hero": 0.1818,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.4091,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.4091
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Athis (mythology)",
+      {
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "In Book V of Ovid's mock-epic Metamorphoses, Athis is a young demigod of outstanding beauty from India, son of Limnaee, a nymph of the Ganges.",
+        "archetypes": [
+          "The Anima",
+          "The Child"
+        ],
+        "primary_archetype": "The Anima",
         "archetype_scores": {
           "The Hero": 0.0,
-          "The Shadow": 0.5294,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.0,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.5,
+          "The Child": 0.5,
+          "The Self": 0.0
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Bellerophon",
+      {
+        "type": "heroes",
+        "pantheon": "Greek",
+        "description": "Bellerophon&#91;1&#93; or Bellerophontes (Ancient Greek: Βελλεροφῶν; Βελλεροφόντης, lit.&#8201;'slayer of Belleros') or Hipponous (Ancient Greek: Ἱππόνοος, lit.&#8201;'horse-knower'),&#91;2&#93; was a divine Corinthian hero of Greek mythology, the son of Poseidon and Eurynome, and the foster son of ",
+        "archetypes": [
+          "The Wise Old Man",
+          "The Self",
+          "The Hero",
+          "The Child"
+        ],
+        "primary_archetype": "The Wise Old Man",
+        "archetype_scores": {
+          "The Hero": 0.2281,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.2982,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0702,
+          "The Anima": 0.0,
+          "The Child": 0.1579,
+          "The Self": 0.2456
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Ægir",
+      {
+        "type": "deities",
+        "pantheon": "Norse",
+        "description": "In Norse mythology, Ægir (anglicised as Aegir, Old Norse: 'sea'), Hlér (Old Norse: 'sea'), or Gymir (Old Norse less clearly: 'sea' or 'engulfer'), is a jötunn and personification of the sea. In the Old Norse record, Ægir hosts the gods in his halls and is associated with brewing ale. Ægir and his wi",
+        "archetypes": [
+          "The Self",
+          "The Wise Old Man",
+          "The Great Mother",
+          "The Trickster"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.2273,
+          "The Great Mother": 0.1818,
+          "The Trickster": 0.1818,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.4091
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Almáttki áss",
+      {
+        "type": "deities",
+        "pantheon": "Norse",
+        "description": "Almáttki áss (the almighty áss \"god\") is an unknown Norse god evoked in an Icelandic legal oath sworn on a temple ring, mentioned in Landnámabók (Hauksbók 268).",
+        "archetypes": [
+          "The Self"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
           "The Wise Old Man": 0.0,
           "The Great Mother": 0.0,
           "The Trickster": 0.0,
           "The Anima": 0.0,
-          "The Child": 0.2353,
-          "The Self": 0.2353
-        },
-        "aliases": []
-      }
-    ],
-    [
-      "Psyche",
-      {
-        "type": "heroes",
-        "pantheon": "Greek",
-        "description": "Psyche is a mortal woman whose great beauty caused Venus to become jealous of her. The tale of Cupid and Psyche describes the overcoming of obstacles placed in the way of love. She completed seemingly impossible tasks to be reunited with Eros, eventually becoming immortal — the human soul's journey ",
-        "archetypes": [
-          "The Anima",
-          "The Child",
-          "The Self"
-        ],
-        "primary_archetype": "The Anima",
-        "archetype_scores": {
-          "The Hero": 0.0533,
-          "The Shadow": 0.0,
-          "The Wise Old Man": 0.0533,
-          "The Great Mother": 0.0,
-          "The Trickster": 0.0533,
-          "The Anima": 0.6133,
-          "The Child": 0.12,
-          "The Self": 0.1067
-        },
-        "aliases": []
-      }
-    ],
-    [
-      "Gilgamesh",
-      {
-        "type": "heroes",
-        "pantheon": "Sumerian",
-        "description": "Gilgamesh is the legendary hero and main character of the Epic of Gilgamesh, often regarded as the earliest great work of literature. He was likely a historical king of Uruk. After the death of his companion Enkidu, he journeys to find immortality, confronting mortality and the limits of the heroic ",
-        "archetypes": [
-          "The Hero",
-          "The Self"
-        ],
-        "primary_archetype": "The Hero",
-        "archetype_scores": {
-          "The Hero": 0.6351,
-          "The Shadow": 0.0541,
-          "The Wise Old Man": 0.0676,
-          "The Great Mother": 0.0405,
-          "The Trickster": 0.0676,
-          "The Anima": 0.0,
           "The Child": 0.0,
-          "The Self": 0.1351
+          "The Self": 1.0
         },
         "aliases": []
       }
     ],
     [
-      "Lugh",
+      "Annar",
       {
         "type": "deities",
-        "pantheon": "Celtic",
-        "description": "Lugh is a god in Irish mythology associated with craftsmanship, skill, the sun, and harvest. He is a member of the Tuatha De Danann and is known as the Long-Armed. He slew his grandfather Balor of the Evil Eye in battle, fulfilling a prophecy and becoming one of the great champion gods of the Celts.",
-        "archetypes": [
-          "The Child",
-          "The Self",
-          "The Wise Old Man"
-        ],
-        "primary_archetype": "The Child",
-        "archetype_scores": {
-          "The Hero": 0.0645,
-          "The Shadow": 0.0,
-          "The Wise Old Man": 0.0806,
-          "The Great Mother": 0.0645,
-          "The Trickster": 0.0645,
-          "The Anima": 0.0,
-          "The Child": 0.5645,
-          "The Self": 0.1613
-        },
-        "aliases": [
-          "Lugus",
-          "Lleu"
-        ]
-      }
-    ],
-    [
-      "Kali",
-      {
-        "type": "deities",
-        "pantheon": "Hindu",
-        "description": "Kali is the Hindu goddess associated with empowerment, time, death, violence, and doomsday. She is the fierce manifestation of the divine feminine, Shakti. She is dark, terrifying, and dancing on the body of Shiva — the destroyer of evil but also the mother who devours illusion and fear.",
+        "pantheon": "Norse",
+        "description": "In Norse mythology, according to the Gylfaginning, Annar (Old Norse Annarr 'second, another') is the father of Jörð (Mother Earth) by Nótt (the Night).&#91;1&#93; The form Ónar (Old Norse Ónarr 'gaping') is found as a variant.",
         "archetypes": [
           "The Great Mother",
           "The Shadow"
@@ -838,46 +1251,475 @@
         "primary_archetype": "The Great Mother",
         "archetype_scores": {
           "The Hero": 0.0,
-          "The Shadow": 0.2025,
-          "The Wise Old Man": 0.0506,
-          "The Great Mother": 0.5443,
-          "The Trickster": 0.0506,
-          "The Anima": 0.0506,
-          "The Child": 0.0506,
-          "The Self": 0.0506
+          "The Shadow": 0.3333,
+          "The Wise Old Man": 0.0,
+          "The Great Mother": 0.6667,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.0
         },
         "aliases": []
       }
     ],
     [
-      "Vishnu",
+      "Auðr (mythology)",
       {
         "type": "deities",
-        "pantheon": "Hindu",
-        "description": "Vishnu is one of the principal deities of Hinduism, and the Supreme Being in Vaishnavism. He is the preserver and protector of the universe in the Hindu Trimurti alongside Brahma the creator and Shiva the destroyer. He maintains the cosmic order and is the totality of divine existence.",
+        "pantheon": "Norse",
+        "description": "In Norse mythology, Auðr (Old Norse \"prosperity\"&#91;1&#93;) is the son of the personified night, Nótt, fathered by Naglfari, and uncle of Thor. Auðr is attested in the Prose Edda, written in the 13th century by Snorri Sturluson, and in the poetry of skalds.",
+        "archetypes": [
+          "The Shadow"
+        ],
+        "primary_archetype": "The Shadow",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 1.0,
+          "The Wise Old Man": 0.0,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.0
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Baldr",
+      {
+        "type": "deities",
+        "pantheon": "Norse",
+        "description": "Baldr (Old Norse also Balder, Baldur) is a god in Germanic mythology. In Norse mythology, he is a son of the god Odin and the goddess Frigg, and has numerous brothers, such as Thor and Váli. In wider Germanic mythology, the god was known in Old English as Bældæġ, and in Old High German as Balder, al",
         "archetypes": [
           "The Self",
+          "The Wise Old Man",
+          "The Great Mother",
+          "The Hero"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0976,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.2439,
+          "The Great Mother": 0.2195,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.439
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Borr",
+      {
+        "type": "deities",
+        "pantheon": "Norse",
+        "description": "In Norse mythology, Borr or Burr&#91;a&#93; (Old Norse: 'borer'&#91;1&#93; sometimes anglicized Bor, Bör or Bur) was the son of Búri. Borr was the husband of Bestla and the father of Odin, Vili and Vé. Borr receives mention in a poem in the Poetic Edda, compiled in the 13th century from earlier trad",
+        "archetypes": [
+          "The Wise Old Man",
+          "The Self"
+        ],
+        "primary_archetype": "The Wise Old Man",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.5,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.5
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Bragi",
+      {
+        "type": "deities",
+        "pantheon": "Norse",
+        "description": "Bragi (Old Norse) is a figure in Norse mythology, and the god of poetry according to Snorri.&#91;1&#93; The Prose Edda, Lokasenna and Grettis saga all portray him as the husband of the goddess Iðunn.&#91;2&#93;",
+        "archetypes": [
+          "The Self",
+          "The Wise Old Man",
+          "The Great Mother"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.2778,
+          "The Great Mother": 0.2222,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.5
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Búri",
+      {
+        "type": "deities",
+        "pantheon": "Norse",
+        "description": "In Norse mythology, Búri (Old Norse: &#91;ˈbuːre&#93;) is a divinity god 'producer, father' of all other gods,&#91;1&#93; and an early ancestor of the Æsir gods of the principal pantheon in Old Norse religion. Búri was licked free from salty rime stones by the primeval cow Auðumbla over the course o",
+        "archetypes": [
+          "The Self",
+          "The Trickster"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.0,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.3571,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.6429
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Dagr",
+      {
+        "type": "deities",
+        "pantheon": "Norse",
+        "description": "Dagr (Old Norse 'day')&#91;1&#93; is the divine personification of the day in Norse mythology. He appears in the Poetic Edda, compiled in the 13th century from earlier traditional sources, and the Prose Edda, written in the 13th century by Snorri Sturluson. In both sources, Dagr is stated to be the ",
+        "archetypes": [
+          "The Self",
+          "The Wise Old Man",
+          "The Shadow",
+          "The Great Mother",
+          "The Trickster",
+          "The Child"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.1026,
+          "The Wise Old Man": 0.2308,
+          "The Great Mother": 0.1026,
+          "The Trickster": 0.1026,
+          "The Anima": 0.0,
+          "The Child": 0.1026,
+          "The Self": 0.359
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Dellingr",
+      {
+        "type": "deities",
+        "pantheon": "Norse",
+        "description": "In Norse mythology, Dellingr (Old Norse possibly \"the dayspring\"&#91;1&#93; or \"shining one\"&#91;2&#93;) is a god. Dellingr is attested in the Poetic Edda, compiled in the 13th century from earlier traditional sources, and in the Prose Edda, written in the 13th century by Snorri Sturluson. In both s",
+        "archetypes": [
+          "The Self",
+          "The Wise Old Man",
+          "The Shadow",
+          "The Great Mother",
+          "The Child"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.1481,
+          "The Wise Old Man": 0.1852,
+          "The Great Mother": 0.1481,
+          "The Trickster": 0.0,
+          "The Anima": 0.0,
+          "The Child": 0.1481,
+          "The Self": 0.3704
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Forseti",
+      {
+        "type": "deities",
+        "pantheon": "Norse",
+        "description": "Forseti (Old Norse \"the presiding one\", \"president\" in modern Icelandic and Faroese) is the god of justice and reconciliation in Norse mythology. He is generally identified with Fosite, a god of the Frisians.",
+        "archetypes": [
+          "The Self",
+          "The Shadow",
+          "The Wise Old Man",
+          "The Trickster"
+        ],
+        "primary_archetype": "The Self",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.1786,
+          "The Wise Old Man": 0.1786,
+          "The Great Mother": 0.0,
+          "The Trickster": 0.1429,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.5
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Freyr",
+      {
+        "type": "deities",
+        "pantheon": "Norse",
+        "description": "In Norse mythology, Freyr (Old Norse: \"(the) Lord\") is the god associated with kingship, fertility, peace, prosperity, fair weather, and good harvest. Freyr, sometimes referred to as Yngvi-Freyr, was especially associated with Sweden and seen as an ancestor of the Swedish royal house. According to A",
+        "archetypes": [
+          "The Self",
+          "The Great Mother",
+          "The Trickster",
           "The Wise Old Man"
         ],
         "primary_archetype": "The Self",
         "archetype_scores": {
           "The Hero": 0.0,
           "The Shadow": 0.0,
-          "The Wise Old Man": 0.1892,
-          "The Great Mother": 0.0,
+          "The Wise Old Man": 0.119,
+          "The Great Mother": 0.2857,
+          "The Trickster": 0.2857,
+          "The Anima": 0.0,
+          "The Child": 0.0,
+          "The Self": 0.3095
+        },
+        "aliases": []
+      }
+    ],
+    [
+      "Glenr",
+      {
+        "type": "deities",
+        "pantheon": "Norse",
+        "description": "In Norse mythology, Glenr (Old Norse\" &#91;ˈɡlenz̠&#93;, \"opening in the clouds\"&#91;1&#93;) is the husband of the goddess Sól, who drives the horses of the sun across the sky. It is stated that they were married on the order of Sól's parent Mundilfari.&#91;2&#93;",
+        "archetypes": [
+          "The Great Mother"
+        ],
+        "primary_archetype": "The Great Mother",
+        "archetype_scores": {
+          "The Hero": 0.0,
+          "The Shadow": 0.0,
+          "The Wise Old Man": 0.0,
+          "The Great Mother": 1.0,
           "The Trickster": 0.0,
           "The Anima": 0.0,
-          "The Child": 0.0541,
-          "The Self": 0.7568
+          "The Child": 0.0,
+          "The Self": 0.0
         },
-        "aliases": [
-          "Narayana",
-          "Hari"
-        ]
+        "aliases": []
+      }
+    ],
+    [
+      "Zeus",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Athena",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Artemis",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Ares",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Hephaestus",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Hermes",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Dionysus",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Perseus",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Hercules",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Persephone",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Hera",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
       }
     ],
     [
       "Cronus",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Poseidon",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Hades",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Demeter",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Gaia",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Theseus",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Medusa",
       {
         "type": "unknown",
         "pantheon": "Unknown",
@@ -902,6 +1744,30 @@
     ],
     [
       "Hydra",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Cerberus",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Odysseus",
       {
         "type": "unknown",
         "pantheon": "Unknown",
@@ -1009,6 +1875,18 @@
       }
     ],
     [
+      "Aphrodite",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
       "Love",
       {
         "type": "unknown",
@@ -1033,7 +1911,43 @@
       }
     ],
     [
-      "Baldr",
+      "Psyche",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Odin",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Thor",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Loki",
       {
         "type": "unknown",
         "pantheon": "Unknown",
@@ -1093,6 +2007,18 @@
       }
     ],
     [
+      "Freya",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
       "Folkvangr",
       {
         "type": "unknown",
@@ -1105,7 +2031,31 @@
       }
     ],
     [
+      "Ra",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
       "Sun",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Isis",
       {
         "type": "unknown",
         "pantheon": "Unknown",
@@ -1142,6 +2092,18 @@
     ],
     [
       "Osiris",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Lugh",
       {
         "type": "unknown",
         "pantheon": "Unknown",
@@ -1201,6 +2163,18 @@
       }
     ],
     [
+      "Gilgamesh",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
       "The Shadow",
       {
         "type": "unknown",
@@ -1214,6 +2188,18 @@
     ],
     [
       "Great Mother",
+      {
+        "type": "unknown",
+        "pantheon": "Unknown",
+        "description": "",
+        "archetypes": [],
+        "primary_archetype": "",
+        "archetype_scores": {},
+        "aliases": []
+      }
+    ],
+    [
+      "Kali",
       {
         "type": "unknown",
         "pantheon": "Unknown",
@@ -1261,7 +2247,7 @@
       }
     ],
     [
-      "He",
+      "Vishnu",
       {
         "type": "unknown",
         "pantheon": "Unknown",
@@ -1273,7 +2259,7 @@
       }
     ],
     [
-      "She",
+      "He",
       {
         "type": "unknown",
         "pantheon": "Unknown",
@@ -1286,6 +2272,33 @@
     ]
   ],
   "edges": [
+    [
+      "Apollo",
+      "Python",
+      {
+        "relation": "killed",
+        "weight": 3,
+        "category": "conflict"
+      }
+    ],
+    [
+      "Apollo",
+      "The Child",
+      {
+        "relation": "symbolizes",
+        "weight": 1,
+        "category": "symbolic"
+      }
+    ],
+    [
+      "Achilles",
+      "The Hero",
+      {
+        "relation": "symbolizes",
+        "weight": 1,
+        "category": "symbolic"
+      }
+    ],
     [
       "Zeus",
       "Athena",
@@ -1422,74 +2435,11 @@
       }
     ],
     [
-      "Hera",
-      "Ares",
-      {
-        "relation": "mother_of",
-        "weight": 3,
-        "category": "family"
-      }
-    ],
-    [
-      "Hera",
-      "Hephaestus",
-      {
-        "relation": "mother_of",
-        "weight": 3,
-        "category": "family"
-      }
-    ],
-    [
       "Athena",
       "Wisdom",
       {
         "relation": "embodies",
         "weight": 2,
-        "category": "symbolic"
-      }
-    ],
-    [
-      "Poseidon",
-      "Theseus",
-      {
-        "relation": "father_of",
-        "weight": 3,
-        "category": "family"
-      }
-    ],
-    [
-      "Poseidon",
-      "Sea",
-      {
-        "relation": "rules_over",
-        "weight": 2,
-        "category": "role"
-      }
-    ],
-    [
-      "Hades",
-      "Underworld",
-      {
-        "relation": "rules_over",
-        "weight": 2,
-        "category": "role"
-      }
-    ],
-    [
-      "Hades",
-      "Persephone",
-      {
-        "relation": "married",
-        "weight": 2,
-        "category": "family"
-      }
-    ],
-    [
-      "Hades",
-      "The Shadow",
-      {
-        "relation": "symbolizes",
-        "weight": 1,
         "category": "symbolic"
       }
     ],
@@ -1512,42 +2462,6 @@
       }
     ],
     [
-      "Apollo",
-      "Python",
-      {
-        "relation": "killed",
-        "weight": 3,
-        "category": "conflict"
-      }
-    ],
-    [
-      "Apollo",
-      "The Child",
-      {
-        "relation": "symbolizes",
-        "weight": 1,
-        "category": "symbolic"
-      }
-    ],
-    [
-      "Aphrodite",
-      "Love",
-      {
-        "relation": "embodies",
-        "weight": 2,
-        "category": "symbolic"
-      }
-    ],
-    [
-      "Aphrodite",
-      "Psyche",
-      {
-        "relation": "guides",
-        "weight": 1,
-        "category": "role"
-      }
-    ],
-    [
       "Dionysus",
       "The Child",
       {
@@ -1557,62 +2471,17 @@
       }
     ],
     [
-      "Persephone",
-      "Underworld",
+      "Perseus",
+      "Medusa",
       {
-        "relation": "rules_over",
-        "weight": 2,
-        "category": "role"
-      }
-    ],
-    [
-      "Persephone",
-      "Anima",
-      {
-        "relation": "symbolizes",
-        "weight": 1,
-        "category": "symbolic"
-      }
-    ],
-    [
-      "Demeter",
-      "Persephone",
-      {
-        "relation": "mother_of",
+        "relation": "killed",
         "weight": 3,
-        "category": "family"
+        "category": "conflict"
       }
     ],
     [
-      "Demeter",
-      "Harvest",
-      {
-        "relation": "rules_over",
-        "weight": 2,
-        "category": "role"
-      }
-    ],
-    [
-      "Demeter",
-      "Great Mother",
-      {
-        "relation": "symbolizes",
-        "weight": 1,
-        "category": "symbolic"
-      }
-    ],
-    [
-      "Gaia",
-      "Cronus",
-      {
-        "relation": "mother_of",
-        "weight": 3,
-        "category": "family"
-      }
-    ],
-    [
-      "Gaia",
-      "Great Mother",
+      "Perseus",
+      "The Hero",
       {
         "relation": "symbolizes",
         "weight": 1,
@@ -1647,17 +2516,170 @@
       }
     ],
     [
-      "Perseus",
-      "Medusa",
+      "Persephone",
+      "Underworld",
       {
-        "relation": "killed",
-        "weight": 3,
-        "category": "conflict"
+        "relation": "rules_over",
+        "weight": 2,
+        "category": "role"
       }
     ],
     [
-      "Perseus",
-      "The Hero",
+      "Persephone",
+      "Anima",
+      {
+        "relation": "symbolizes",
+        "weight": 1,
+        "category": "symbolic"
+      }
+    ],
+    [
+      "Hera",
+      "Ares",
+      {
+        "relation": "mother_of",
+        "weight": 3,
+        "category": "family"
+      }
+    ],
+    [
+      "Hera",
+      "Hephaestus",
+      {
+        "relation": "mother_of",
+        "weight": 3,
+        "category": "family"
+      }
+    ],
+    [
+      "Cronus",
+      "Zeus",
+      {
+        "relation": "father_of",
+        "weight": 3,
+        "category": "family"
+      }
+    ],
+    [
+      "Cronus",
+      "Hera",
+      {
+        "relation": "father_of",
+        "weight": 3,
+        "category": "family"
+      }
+    ],
+    [
+      "Cronus",
+      "Poseidon",
+      {
+        "relation": "father_of",
+        "weight": 3,
+        "category": "family"
+      }
+    ],
+    [
+      "Cronus",
+      "Hades",
+      {
+        "relation": "father_of",
+        "weight": 3,
+        "category": "family"
+      }
+    ],
+    [
+      "Cronus",
+      "Demeter",
+      {
+        "relation": "father_of",
+        "weight": 3,
+        "category": "family"
+      }
+    ],
+    [
+      "Poseidon",
+      "Theseus",
+      {
+        "relation": "father_of",
+        "weight": 3,
+        "category": "family"
+      }
+    ],
+    [
+      "Poseidon",
+      "Sea",
+      {
+        "relation": "rules_over",
+        "weight": 2,
+        "category": "role"
+      }
+    ],
+    [
+      "Hades",
+      "Underworld",
+      {
+        "relation": "rules_over",
+        "weight": 2,
+        "category": "role"
+      }
+    ],
+    [
+      "Hades",
+      "Persephone",
+      {
+        "relation": "married",
+        "weight": 2,
+        "category": "family"
+      }
+    ],
+    [
+      "Hades",
+      "The Shadow",
+      {
+        "relation": "symbolizes",
+        "weight": 1,
+        "category": "symbolic"
+      }
+    ],
+    [
+      "Demeter",
+      "Persephone",
+      {
+        "relation": "mother_of",
+        "weight": 3,
+        "category": "family"
+      }
+    ],
+    [
+      "Demeter",
+      "Harvest",
+      {
+        "relation": "rules_over",
+        "weight": 2,
+        "category": "role"
+      }
+    ],
+    [
+      "Demeter",
+      "Great Mother",
+      {
+        "relation": "symbolizes",
+        "weight": 1,
+        "category": "symbolic"
+      }
+    ],
+    [
+      "Gaia",
+      "Cronus",
+      {
+        "relation": "mother_of",
+        "weight": 3,
+        "category": "family"
+      }
+    ],
+    [
+      "Gaia",
+      "Great Mother",
       {
         "relation": "symbolizes",
         "weight": 1,
@@ -1674,12 +2696,12 @@
       }
     ],
     [
-      "Achilles",
-      "The Hero",
+      "Cerberus",
+      "Underworld",
       {
-        "relation": "symbolizes",
+        "relation": "guards",
         "weight": 1,
-        "category": "symbolic"
+        "category": "role"
       }
     ],
     [
@@ -1689,6 +2711,33 @@
         "relation": "battled",
         "weight": 2,
         "category": "conflict"
+      }
+    ],
+    [
+      "Aphrodite",
+      "Love",
+      {
+        "relation": "embodies",
+        "weight": 2,
+        "category": "symbolic"
+      }
+    ],
+    [
+      "Aphrodite",
+      "Psyche",
+      {
+        "relation": "guides",
+        "weight": 1,
+        "category": "role"
+      }
+    ],
+    [
+      "Psyche",
+      "Anima",
+      {
+        "relation": "symbolizes",
+        "weight": 1,
+        "category": "symbolic"
       }
     ],
     [
@@ -1743,15 +2792,6 @@
         "relation": "battled",
         "weight": 2,
         "category": "conflict"
-      }
-    ],
-    [
-      "Thor",
-      "Odin",
-      {
-        "relation": "son_of",
-        "weight": 3,
-        "category": "family"
       }
     ],
     [
@@ -1836,105 +2876,6 @@
       }
     ],
     [
-      "Cerberus",
-      "Underworld",
-      {
-        "relation": "guards",
-        "weight": 1,
-        "category": "role"
-      }
-    ],
-    [
-      "Psyche",
-      "Anima",
-      {
-        "relation": "symbolizes",
-        "weight": 1,
-        "category": "symbolic"
-      }
-    ],
-    [
-      "Gilgamesh",
-      "The Hero",
-      {
-        "relation": "symbolizes",
-        "weight": 1,
-        "category": "symbolic"
-      }
-    ],
-    [
-      "Lugh",
-      "Balor",
-      {
-        "relation": "killed",
-        "weight": 3,
-        "category": "conflict"
-      }
-    ],
-    [
-      "Kali",
-      "Great Mother",
-      {
-        "relation": "symbolizes",
-        "weight": 1,
-        "category": "symbolic"
-      }
-    ],
-    [
-      "Vishnu",
-      "The Self",
-      {
-        "relation": "symbolizes",
-        "weight": 1,
-        "category": "symbolic"
-      }
-    ],
-    [
-      "Cronus",
-      "Zeus",
-      {
-        "relation": "father_of",
-        "weight": 3,
-        "category": "family"
-      }
-    ],
-    [
-      "Cronus",
-      "Hera",
-      {
-        "relation": "father_of",
-        "weight": 3,
-        "category": "family"
-      }
-    ],
-    [
-      "Cronus",
-      "Poseidon",
-      {
-        "relation": "father_of",
-        "weight": 3,
-        "category": "family"
-      }
-    ],
-    [
-      "Cronus",
-      "Hades",
-      {
-        "relation": "father_of",
-        "weight": 3,
-        "category": "family"
-      }
-    ],
-    [
-      "Cronus",
-      "Demeter",
-      {
-        "relation": "father_of",
-        "weight": 3,
-        "category": "family"
-      }
-    ],
-    [
       "Horus",
       "Set",
       {
@@ -1962,19 +2903,46 @@
       }
     ],
     [
-      "He",
-      "Zeus",
+      "Lugh",
+      "Balor",
       {
-        "relation": "son_of",
+        "relation": "killed",
         "weight": 3,
-        "category": "family"
+        "category": "conflict"
       }
     ],
     [
-      "She",
-      "Zeus",
+      "Gilgamesh",
+      "The Hero",
       {
-        "relation": "daughter_of",
+        "relation": "symbolizes",
+        "weight": 1,
+        "category": "symbolic"
+      }
+    ],
+    [
+      "Kali",
+      "Great Mother",
+      {
+        "relation": "symbolizes",
+        "weight": 1,
+        "category": "symbolic"
+      }
+    ],
+    [
+      "Vishnu",
+      "The Self",
+      {
+        "relation": "symbolizes",
+        "weight": 1,
+        "category": "symbolic"
+      }
+    ],
+    [
+      "He",
+      "Apollo",
+      {
+        "relation": "son_of",
         "weight": 3,
         "category": "family"
       }

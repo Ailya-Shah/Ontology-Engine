@@ -1,25 +1,94 @@
 """Mythological Ontology Engine — Scraper + Seed Dataset"""
-import requests, json, time, re
+import requests, json, time, re, socket
 from pathlib import Path
 from typing import Dict, List, Optional
 from engine.schema import SCRAPE_SOURCES
+
+def check_network(host="8.8.8.8", port=53, timeout=3):
+    """Check if network is reachable."""
+    try:
+        socket.setdefaulttimeout(timeout)
+        socket.socket(socket.AF_INET, socket.SOCK_DGRAM).connect((host, port))
+        return True
+    except OSError:
+        return False
 
 class MythologyScraper:
     BASE = "https://en.wikipedia.org"
     def __init__(self, output_dir="data/raw"):
         self.session = requests.Session()
-        self.session.headers.update({"User-Agent":"Mythology-Ontology/2.0 (Research)"})
+        self.session.headers.update({"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.entities: List[Dict] = []
         self._seen: set = set()
+        self.cache_dir = self.output_dir / "cache"
+        self.cache_dir.mkdir(parents=True, exist_ok=True)
+
+    def get_cache_path(self, url):
+        """Generate cache file path for a URL."""
+        import hashlib
+        url_hash = hashlib.md5(url.encode()).hexdigest()
+        return self.cache_dir / f"{url_hash}.json"
+
+    def load_cache(self, url):
+        """Load response from cache."""
+        cache_file = self.get_cache_path(url)
+        if cache_file.exists():
+            try:
+                with open(cache_file, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            except:
+                return None
+        return None
+
+    def save_cache(self, url, data):
+        """Save response to cache."""
+        try:
+            cache_file = self.get_cache_path(url)
+            with open(cache_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False)
+        except:
+            pass
 
     def scrape_category(self, url, entity_type, pantheon="Unknown", max_items=30):
         print(f"  [{pantheon}] {entity_type} ← {url.split('/')[-1]}")
-        try:
-            r = self.session.get(url, timeout=10); r.raise_for_status()
-        except Exception as e:
-            print(f"    ✗ {e}"); return []
+        
+        # Try cache first
+        cached = self.load_cache(url)
+        if cached is not None:
+            print(f"    ⟳ From cache: {len(cached)} stubs")
+            return cached
+        
+        # Retry logic with backoff
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                r = self.session.get(url, timeout=15)
+                r.raise_for_status()
+                links = re.findall(r'href="(/wiki/[^":]+)"[^>]*title="([^"]+)"', r.text)
+                stubs, seen = [], set()
+                for href, title in links:
+                    if len(stubs) >= max_items: break
+                    if href in self._seen or href in seen: continue
+                    if any(x in href for x in ["Category:","Wikipedia:","Help:","File:","Template:"]): continue
+                    if any(x in title for x in ["disambiguation","List of","Category:"]): continue
+                    seen.add(href)
+                    stubs.append({"name":title,"url":self.BASE+href,"type":entity_type,"pantheon":pantheon})
+                print(f"    ✓ {len(stubs)} stubs")
+                self.save_cache(url, stubs)
+                return stubs
+            except requests.exceptions.ConnectionError as e:
+                wait = 2 ** attempt
+                if attempt < max_retries - 1:
+                    print(f"    ⟳ Retry {attempt + 1}/{max_retries} (wait {wait}s)...")
+                    time.sleep(wait)
+                else:
+                    print(f"    ✗ Connection failed after {max_retries} retries")
+                    return []
+            except Exception as e:
+                print(f"    ✗ {type(e).__name__}: {str(e)[:60]}")
+                return []
         links = re.findall(r'href="(/wiki/[^":]+)"[^>]*title="([^"]+)"', r.text)
         stubs, seen = [], set()
         for href, title in links:
@@ -35,48 +104,83 @@ class MythologyScraper:
         url = stub["url"]
         if url in self._seen: return None
         self._seen.add(url)
-        try:
-            r = self.session.get(url, timeout=10); r.raise_for_status()
-        except: return None
-        paras = re.findall(r'<p[^>]*>(.*?)</p>', r.text, re.DOTALL)
-        description = ""
-        for p in paras:
-            clean = re.sub(r'<[^>]+>','',p).strip()
-            clean = re.sub(r'\[[\d]+\]','',clean)
-            clean = re.sub(r'\s+',' ',clean)
-            if len(clean) > 80: description = clean[:600]; break
-        infobox = {}
-        ib = re.search(r'<table[^>]*infobox[^>]*>(.*?)</table>', r.text, re.DOTALL|re.IGNORECASE)
-        if ib:
-            for row in re.findall(r'<tr[^>]*>(.*?)</tr>', ib.group(1), re.DOTALL):
-                th = re.search(r'<th[^>]*>(.*?)</th>', row, re.DOTALL)
-                td = re.search(r'<td[^>]*>(.*?)</td>', row, re.DOTALL)
-                if th and td:
-                    k = re.sub(r'<[^>]+>','',th.group(1)).strip()
-                    v = re.sub(r'\s+',' ',re.sub(r'<[^>]+>','',td.group(1))).strip()
-                    if k and v and len(k)<60: infobox[k]=v[:200]
-        aliases = []
-        m = re.search(r'also known as ([^.]+)\.', description, re.IGNORECASE)
-        if m:
-            aliases = [a.strip().strip('"') for a in re.split(r',|and', m.group(1)) if len(a.strip())>1]
-        return {**stub,"description":description,"infobox":infobox,"aliases":aliases,"archetypes":[],"archetype_scores":{}}
+        
+        # Try cache first
+        cache_data = self.load_cache(url)
+        if cache_data is not None:
+            return cache_data
+        
+        # Retry logic
+        max_retries = 2
+        for attempt in range(max_retries):
+            try:
+                r = self.session.get(url, timeout=15)
+                r.raise_for_status()
+                
+                paras = re.findall(r'<p[^>]*>(.*?)</p>', r.text, re.DOTALL)
+                description = ""
+                for p in paras:
+                    clean = re.sub(r'<[^>]+>','',p).strip()
+                    clean = re.sub(r'\[[\d]+\]','',clean)
+                    clean = re.sub(r'\s+',' ',clean)
+                    if len(clean) > 80: description = clean[:600]; break
+                infobox = {}
+                ib = re.search(r'<table[^>]*infobox[^>]*>(.*?)</table>', r.text, re.DOTALL|re.IGNORECASE)
+                if ib:
+                    for row in re.findall(r'<tr[^>]*>(.*?)</tr>', ib.group(1), re.DOTALL):
+                        th = re.search(r'<th[^>]*>(.*?)</th>', row, re.DOTALL)
+                        td = re.search(r'<td[^>]*>(.*?)</td>', row, re.DOTALL)
+                        if th and td:
+                            k = re.sub(r'<[^>]+>','',th.group(1)).strip()
+                            v = re.sub(r'\s+',' ',re.sub(r'<[^>]+>','',td.group(1))).strip()
+                            if k and v and len(k)<60: infobox[k]=v[:200]
+                aliases = []
+                m = re.search(r'also known as ([^.]+)\.', description, re.IGNORECASE)
+                if m:
+                    aliases = [a.strip().strip('"') for a in re.split(r',|and', m.group(1)) if len(a.strip())>1]
+                
+                entity = {**stub,"description":description,"infobox":infobox,"aliases":aliases,"archetypes":[],"archetype_scores":{}}
+                self.save_cache(url, entity)
+                return entity
+            except requests.exceptions.ConnectionError:
+                if attempt < max_retries - 1:
+                    time.sleep(2 ** attempt)
+                else:
+                    return None
+            except Exception:
+                return None
 
-    def run(self, sources=None, delay=0.4):
+    def run(self, sources=None, delay=0.2, force_network=False, max_entities=60):
         if sources is None: sources = SCRAPE_SOURCES
-        print("\n━━━ Collecting stubs ━━━")
+        
+        # Check network availability
+        has_network = check_network()
+        print(f"\n--- Network: {'OK' if has_network else 'UNAVAILABLE'} ---")
+        
+        if not has_network and not force_network:
+            print("  ! Skipping Wikipedia scrape (use force_network=True to retry)")
+            return []
+        
+        print("--- Collecting stubs ---")
         stubs = []
         for src in sources:
-            stubs += self.scrape_category(src["url"],src["entity_type"],src.get("pantheon","Unknown"),src.get("max_items",30))
+            result = self.scrape_category(src["url"],src["entity_type"],src.get("pantheon","Unknown"),src.get("max_items",30))
+            stubs += result
             time.sleep(delay)
+        
         seen, unique = set(), []
         for s in stubs:
             if s["url"] not in seen: seen.add(s["url"]); unique.append(s)
-        print(f"\n  {len(unique)} unique stubs")
-        print("\n━━━ Fetching details ━━━")
+        print(f"\n  {len(unique)} unique stubs (limiting to {max_entities} for performance)")
+        unique = unique[:max_entities]  # Limit for performance
+        
+        print(f"\n--- Fetching details (1/{len(unique)}) ---")
         self.entities = []
-        for stub in unique:
+        for idx, stub in enumerate(unique, 1):
             e = self.scrape_entity(stub)
             if e and e.get("description"): self.entities.append(e)
+            if idx % 10 == 0:
+                print(f"  ✓ {len(self.entities)}/{idx} processed")
             time.sleep(delay)
         print(f"\n  ✓ {len(self.entities)} entities with descriptions")
         out = self.output_dir / "entities_raw.json"

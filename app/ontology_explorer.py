@@ -68,7 +68,7 @@ def load_onto():
 def load_entities():
     p = ROOT/"data"/"entities"/"all_entities.json"
     if p.exists():
-        with open(p) as f: return json.load(f)
+        with open(p, encoding="utf-8") as f: return json.load(f)
     from engine.scraper import SEED_ENTITIES
     from engine.archetype_mapper import ArchetypeMapper
     ents = list(SEED_ENTITIES)

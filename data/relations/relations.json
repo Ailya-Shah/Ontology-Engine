@@ -520,21 +520,7 @@
   {
     "source": "He",
     "relation": "son_of",
-    "target": "Zeus",
-    "category": "family",
-    "weight": 3
-  },
-  {
-    "source": "She",
-    "relation": "daughter_of",
-    "target": "Zeus",
-    "category": "family",
-    "weight": 3
-  },
-  {
-    "source": "Thor",
-    "relation": "son_of",
-    "target": "Odin",
+    "target": "Apollo",
     "category": "family",
     "weight": 3
   }

@@ -9,29 +9,33 @@ from engine.relation_extractor import RelationExtractor
 from engine.ontology import MythologicalOntology
 from engine.schema import SCRAPE_SOURCES
 
-def run_pipeline(use_network=True, max_scrape=25, output_dir="."):
-    print("\n" + "━"*60)
+def run_pipeline(use_network=True, max_scrape=25, output_dir=".", force_network=False):
+    print("\n" + "="*60)
     print("  MYTHOLOGICAL ONTOLOGY ENGINE  v2.0")
-    print("━"*60)
+    print("="*60)
 
     entities = []
     if use_network:
         try:
             scraper = MythologyScraper(output_dir=f"{output_dir}/data/raw")
             sources = [{**s,"max_items":min(s["max_items"],max_scrape)} for s in SCRAPE_SOURCES]
-            entities = scraper.run(sources=sources, delay=0.4)
+            entities = scraper.run(sources=sources, delay=0.4, force_network=force_network)
             if len(entities) < 10:
-                print("  ⚠ Supplementing with seed data")
+                print("\n  ⚠ Limited results from Wikipedia, supplementing with seed data...")
                 names = {e["name"] for e in entities}
                 entities += [e for e in SEED_ENTITIES if e["name"] not in names]
         except Exception as ex:
-            print(f"  ✗ Network failed: {ex}\n  ↳ Using seed data")
+            print(f"\n  ✗ Scraping failed: {ex}\n  ↳ Using seed data")
+            entities = []
             use_network = False
 
     if not use_network or not entities:
         print("\n[1/5]  Loading seed entities...")
         entities = list(SEED_ENTITIES)
-        print(f"  ✓ {len(entities)} seed entities")
+        print(f"  ✓ {len(entities)} seed entities loaded")
+    else:
+        print("\n[1/5]  Entities from Wikipedia + seed")
+        print(f"  ✓ {len(entities)} total entities")
 
     print("\n[2/5]  Classifying archetypes...")
     mapper = ArchetypeMapper()
@@ -55,16 +59,16 @@ def run_pipeline(use_network=True, max_scrape=25, output_dir="."):
     for d in ["knowledge_graph","output","data/entities"]:
         Path(f"{output_dir}/{d}").mkdir(parents=True, exist_ok=True)
 
-    with open(f"{output_dir}/data/entities/all_entities.json","w") as f:
+    with open(f"{output_dir}/data/entities/all_entities.json","w",encoding="utf-8") as f:
         json.dump(entities,f,indent=2,ensure_ascii=False)
     onto.save(f"{output_dir}/knowledge_graph/mythology_graph.json")
-    with open(f"{output_dir}/output/graph_d3.json","w") as f:
+    with open(f"{output_dir}/output/graph_d3.json","w",encoding="utf-8") as f:
         json.dump(onto.to_d3(),f,indent=2,ensure_ascii=False)
 
     stats = onto.stats()
-    print("\n" + "━"*60)
+    print("\n" + "="*60)
     print("  BUILD COMPLETE")
-    print("━"*60)
+    print("="*60)
     print(f"  Entities : {stats['nodes']}")
     print(f"  Relations: {stats['edges']}")
     print(f"  Density  : {stats['density']}")
@@ -78,4 +82,15 @@ def run_pipeline(use_network=True, max_scrape=25, output_dir="."):
     return onto
 
 if __name__ == "__main__":
-    run_pipeline(use_network=True, max_scrape=25)
+    import sys
+    force_network = "--force-network" in sys.argv or "--wikipedia" in sys.argv
+    
+    if force_network:
+        print("  (Wikipedia scraping enabled)\n")
+    else:
+        from engine.scraper import check_network
+        if not check_network():
+            print("\n  ⚠ No network detected. Using seed data.")
+            print("  → To enable Wikipedia scraping: python pipeline.py --force-network\n")
+    
+    onto = run_pipeline(use_network=True, max_scrape=25, force_network=force_network)
