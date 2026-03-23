@@ -1,0 +1,1406 @@
+{
+  "nodes": [
+    {
+      "id": "Zeus",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Self",
+      "archetypes": [
+        "The Self",
+        "The Wise Old Man",
+        "The Child"
+      ],
+      "description": "Zeus is the god of the sky and thunder in ancient Greek religion, who rules as king of the gods on Mount Olympus. He is the child of the Titans Cronus and Rhea, the youngest of his siblings. In most t",
+      "color": "#FFD700",
+      "pantheon_color": "#4A90D9",
+      "size": 28
+    },
+    {
+      "id": "Hera",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Self",
+      "archetypes": [
+        "The Self",
+        "The Wise Old Man",
+        "The Great Mother",
+        "The Child"
+      ],
+      "description": "Hera is the goddess of marriage, women, childbirth, and family in ancient Greek religion. She is daughter of the Titans Cronus and Rhea. She is the wife and one of three sisters of Zeus, and thus quee",
+      "color": "#FFD700",
+      "pantheon_color": "#4A90D9",
+      "size": 15.272727272727273
+    },
+    {
+      "id": "Athena",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Wise Old Man",
+      "archetypes": [
+        "The Wise Old Man",
+        "The Self",
+        "The Great Mother"
+      ],
+      "description": "Athena is the goddess of wisdom, warfare, and craftsmanship in ancient Greek religion. She is a virgin deity and the patron goddess of Athens. Born from the head of her father Zeus, fully grown and ar",
+      "color": "#4ECDC4",
+      "pantheon_color": "#4A90D9",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Poseidon",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Great Mother",
+      "archetypes": [
+        "The Great Mother",
+        "The Self",
+        "The Wise Old Man",
+        "The Shadow"
+      ],
+      "description": "Poseidon is one of the Twelve Olympians in ancient Greek religion, god of the sea, storms, earthquakes, and horses. He was also called Earth-Shaker due to his role in causing earthquakes. He is a son ",
+      "color": "#96CEB4",
+      "pantheon_color": "#4A90D9",
+      "size": 13.454545454545455
+    },
+    {
+      "id": "Hades",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Shadow",
+      "archetypes": [
+        "The Shadow",
+        "The Self",
+        "The Wise Old Man"
+      ],
+      "description": "Hades was the god of the dead and king of the underworld in ancient Greek religion. He was the eldest son of Cronus and Rhea, and brother of Zeus and Poseidon. He ruled the realm of the dead and the s",
+      "color": "#6B7280",
+      "pantheon_color": "#4A90D9",
+      "size": 15.272727272727273
+    },
+    {
+      "id": "Hermes",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Trickster",
+      "archetypes": [
+        "The Trickster",
+        "The Child",
+        "The Self"
+      ],
+      "description": "Hermes is an Olympian deity considered the herald of the gods, protector of travelers, thieves, merchants, and orators. He moves freely between the worlds of mortal and divine, and is believed to brin",
+      "color": "#F7DC6F",
+      "pantheon_color": "#4A90D9",
+      "size": 13.454545454545455
+    },
+    {
+      "id": "Apollo",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Child",
+      "archetypes": [
+        "The Child",
+        "The Wise Old Man",
+        "The Self"
+      ],
+      "description": "Apollo is one of the Olympian deities, god of the sun, light, music, poetry, art, prophecy, truth, archery, plague, and healing. He is the son of Zeus and Leto, and has a twin sister, Artemis. Born yo",
+      "color": "#87CEEB",
+      "pantheon_color": "#4A90D9",
+      "size": 13.454545454545455
+    },
+    {
+      "id": "Artemis",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Trickster",
+      "archetypes": [
+        "The Trickster",
+        "The Great Mother",
+        "The Shadow"
+      ],
+      "description": "Artemis is the goddess of the hunt, wilderness, animals, the Moon, and chastity. She hunts with silver arrows and is accompanied by hunting dogs. As goddess of the Moon she rules the night, the wild, ",
+      "color": "#F7DC6F",
+      "pantheon_color": "#4A90D9",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Aphrodite",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Anima",
+      "archetypes": [
+        "The Anima",
+        "The Great Mother"
+      ],
+      "description": "Aphrodite is an ancient Greek goddess associated with love, lust, pleasure, passion, procreation, and beauty. She was born from sea-foam near Paphos, Cyprus, emerging fully formed from the waves. She ",
+      "color": "#DDA0DD",
+      "pantheon_color": "#4A90D9",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Dionysus",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Child",
+      "archetypes": [
+        "The Child",
+        "The Trickster",
+        "The Self",
+        "The Wise Old Man"
+      ],
+      "description": "Dionysus is the god of the grape harvest, winemaking, fertility, insanity, ritual madness, religious ecstasy, festivity, and theatre. Born twice — first from Semele, then from Zeus's thigh — he is the",
+      "color": "#87CEEB",
+      "pantheon_color": "#4A90D9",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Ares",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Self",
+      "archetypes": [
+        "The Self",
+        "The Wise Old Man",
+        "The Hero",
+        "The Child"
+      ],
+      "description": "Ares is the Greek god of war, courage, and violence. He is one of the Twelve Olympians, the son of Zeus and Hera. He represents the physical, violent, and untamed aspect of war — pure martial fury rat",
+      "color": "#FFD700",
+      "pantheon_color": "#4A90D9",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Hephaestus",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Wise Old Man",
+      "archetypes": [
+        "The Wise Old Man",
+        "The Self",
+        "The Great Mother",
+        "The Child"
+      ],
+      "description": "Hephaestus is the god of fire, metalworking, stone masonry, forges, the art of sculpture, technology, and blacksmiths. He was cast off Olympus by his mother Hera due to his deformity. The divine craft",
+      "color": "#4ECDC4",
+      "pantheon_color": "#4A90D9",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Persephone",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Anima",
+      "archetypes": [
+        "The Anima",
+        "The Shadow",
+        "The Great Mother"
+      ],
+      "description": "Persephone is the queen of the underworld and goddess of spring growth. She is the daughter of Zeus and the harvest goddess Demeter. Her abduction by Hades and time spent in the underworld represents ",
+      "color": "#DDA0DD",
+      "pantheon_color": "#4A90D9",
+      "size": 17.090909090909093
+    },
+    {
+      "id": "Demeter",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Great Mother",
+      "archetypes": [
+        "The Great Mother",
+        "The Self"
+      ],
+      "description": "Demeter is the goddess of the harvest and agriculture, presiding over grains and the fertility of the earth. She is a daughter of Cronus and Rhea. She searched desperately for her daughter Persephone ",
+      "color": "#96CEB4",
+      "pantheon_color": "#4A90D9",
+      "size": 15.272727272727273
+    },
+    {
+      "id": "Gaia",
+      "type": "deities",
+      "pantheon": "Greek",
+      "primary_archetype": "The Great Mother",
+      "archetypes": [
+        "The Great Mother",
+        "The Self"
+      ],
+      "description": "Gaia is the personification of the Earth and one of the Greek primordial deities. She is the ancestral mother of all life: the primal Mother Earth goddess. She is the immediate parent of Uranus, from ",
+      "color": "#96CEB4",
+      "pantheon_color": "#4A90D9",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Hercules",
+      "type": "heroes",
+      "pantheon": "Greek",
+      "primary_archetype": "The Hero",
+      "archetypes": [
+        "The Hero",
+        "The Self",
+        "The Wise Old Man"
+      ],
+      "description": "Hercules is a Roman hero and god, the equivalent of the Greek divine hero Heracles. He was the son of the god Jupiter and the mortal Alcmene. He was famed for his strength and his twelve labors — impo",
+      "color": "#E8593C",
+      "pantheon_color": "#4A90D9",
+      "size": 15.272727272727273
+    },
+    {
+      "id": "Perseus",
+      "type": "heroes",
+      "pantheon": "Greek",
+      "primary_archetype": "The Hero",
+      "archetypes": [
+        "The Hero",
+        "The Wise Old Man",
+        "The Self"
+      ],
+      "description": "Perseus is the legendary founder of Mycenae and the Perseid dynasty, son of Zeus and the mortal Danae. His heroic deeds include killing the Gorgon Medusa, rescuing Andromeda from a sea monster, and us",
+      "color": "#E8593C",
+      "pantheon_color": "#4A90D9",
+      "size": 13.454545454545455
+    },
+    {
+      "id": "Theseus",
+      "type": "heroes",
+      "pantheon": "Greek",
+      "primary_archetype": "The Hero",
+      "archetypes": [
+        "The Hero",
+        "The Trickster"
+      ],
+      "description": "Theseus was the legendary hero of Athens, known for killing the Minotaur imprisoned in the Labyrinth of Crete. The son of Aegeus, King of Athens. With Ariadne's thread he navigated the maze, slew the ",
+      "color": "#E8593C",
+      "pantheon_color": "#4A90D9",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Achilles",
+      "type": "heroes",
+      "pantheon": "Greek",
+      "primary_archetype": "The Hero",
+      "archetypes": [
+        "The Hero",
+        "The Self"
+      ],
+      "description": "Achilles is a hero of the Trojan War and the central character of Homer's Iliad, the greatest warrior of all the Greeks. The son of Nereid Thetis and Peleus, he was dipped in the River Styx as an infa",
+      "color": "#E8593C",
+      "pantheon_color": "#4A90D9",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Odysseus",
+      "type": "heroes",
+      "pantheon": "Greek",
+      "primary_archetype": "The Hero",
+      "archetypes": [
+        "The Hero",
+        "The Self"
+      ],
+      "description": "Odysseus is the legendary Greek king of Ithaca and hero of Homer's Odyssey. Famous for his intellectual brilliance, guile, and versatility — the hero of the mind rather than brute strength. His ten-ye",
+      "color": "#E8593C",
+      "pantheon_color": "#4A90D9",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Odin",
+      "type": "deities",
+      "pantheon": "Norse",
+      "primary_archetype": "The Wise Old Man",
+      "archetypes": [
+        "The Wise Old Man",
+        "The Self"
+      ],
+      "description": "Odin is the chief god in Germanic paganism, the Allfather. He gave his eye to Mimir to gain wisdom, and hung himself on the world tree Yggdrasil for nine days to discover the runes. He is associated w",
+      "color": "#4ECDC4",
+      "pantheon_color": "#7B68EE",
+      "size": 17.090909090909093
+    },
+    {
+      "id": "Thor",
+      "type": "deities",
+      "pantheon": "Norse",
+      "primary_archetype": "The Hero",
+      "archetypes": [
+        "The Hero",
+        "The Wise Old Man",
+        "The Trickster"
+      ],
+      "description": "Thor is the son of Odin, associated with strength, storms, thunder, lightning, and the protection of mankind. His hammer Mjolnir is his iconic weapon. He is depicted as a red-bearded warrior riding a ",
+      "color": "#E8593C",
+      "pantheon_color": "#7B68EE",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Loki",
+      "type": "deities",
+      "pantheon": "Norse",
+      "primary_archetype": "The Trickster",
+      "archetypes": [
+        "The Trickster",
+        "The Shadow",
+        "The Self"
+      ],
+      "description": "Loki is a shape-shifter and trickster god in Norse mythology. He appears in the form of a salmon, a mare, a fly, and an elderly woman. He is cunning and clever, causing mischief. He orchestrated the d",
+      "color": "#F7DC6F",
+      "pantheon_color": "#7B68EE",
+      "size": 17.090909090909093
+    },
+    {
+      "id": "Freya",
+      "type": "deities",
+      "pantheon": "Norse",
+      "primary_archetype": "The Great Mother",
+      "archetypes": [
+        "The Great Mother",
+        "The Trickster",
+        "The Anima"
+      ],
+      "description": "Freya is a goddess associated with love, beauty, fertility, sex, war, gold, and seidr magic in Norse mythology. She owns the necklace Brisingamen, rides a chariot pulled by two cats, and possesses a c",
+      "color": "#96CEB4",
+      "pantheon_color": "#7B68EE",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Ra",
+      "type": "deities",
+      "pantheon": "Egyptian",
+      "primary_archetype": "The Self",
+      "archetypes": [
+        "The Self",
+        "The Wise Old Man"
+      ],
+      "description": "Ra or Re was the ancient Egyptian deity of the Sun. By the Fifth Dynasty he had become one of the most important gods in ancient Egyptian religion. Ra was believed to rule in all parts of the created ",
+      "color": "#FFD700",
+      "pantheon_color": "#F5A623",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Isis",
+      "type": "deities",
+      "pantheon": "Egyptian",
+      "primary_archetype": "The Great Mother",
+      "archetypes": [
+        "The Great Mother"
+      ],
+      "description": "Isis is a major goddess in ancient Egyptian religion whose worship spread throughout the Greco-Roman world. She was revered as the ideal mother and wife, and as the patroness of nature and magic. She ",
+      "color": "#96CEB4",
+      "pantheon_color": "#F5A623",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Medusa",
+      "type": "monsters",
+      "pantheon": "Greek",
+      "primary_archetype": "The Hero",
+      "archetypes": [
+        "The Hero",
+        "The Shadow",
+        "The Trickster"
+      ],
+      "description": "Medusa was one of the three Gorgons in Greek mythology, a chthonic monster with living venomous snakes in place of hair. Gazing directly upon her would turn onlookers to stone. She was killed by Perse",
+      "color": "#E8593C",
+      "pantheon_color": "#4A90D9",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Cerberus",
+      "type": "monsters",
+      "pantheon": "Greek",
+      "primary_archetype": "The Shadow",
+      "archetypes": [
+        "The Shadow",
+        "The Child",
+        "The Self"
+      ],
+      "description": "Cerberus is a multi-headed dog in Greek and Roman mythology that guards the gates of the Underworld to prevent the dead from leaving. He was the offspring of the monsters Typhon and Echidna. He typica",
+      "color": "#6B7280",
+      "pantheon_color": "#4A90D9",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Psyche",
+      "type": "heroes",
+      "pantheon": "Greek",
+      "primary_archetype": "The Anima",
+      "archetypes": [
+        "The Anima",
+        "The Child",
+        "The Self"
+      ],
+      "description": "Psyche is a mortal woman whose great beauty caused Venus to become jealous of her. The tale of Cupid and Psyche describes the overcoming of obstacles placed in the way of love. She completed seemingly",
+      "color": "#DDA0DD",
+      "pantheon_color": "#4A90D9",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Gilgamesh",
+      "type": "heroes",
+      "pantheon": "Sumerian",
+      "primary_archetype": "The Hero",
+      "archetypes": [
+        "The Hero",
+        "The Self"
+      ],
+      "description": "Gilgamesh is the legendary hero and main character of the Epic of Gilgamesh, often regarded as the earliest great work of literature. He was likely a historical king of Uruk. After the death of his co",
+      "color": "#E8593C",
+      "pantheon_color": "#D4A017",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Lugh",
+      "type": "deities",
+      "pantheon": "Celtic",
+      "primary_archetype": "The Child",
+      "archetypes": [
+        "The Child",
+        "The Self",
+        "The Wise Old Man"
+      ],
+      "description": "Lugh is a god in Irish mythology associated with craftsmanship, skill, the sun, and harvest. He is a member of the Tuatha De Danann and is known as the Long-Armed. He slew his grandfather Balor of the",
+      "color": "#87CEEB",
+      "pantheon_color": "#50C878",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Kali",
+      "type": "deities",
+      "pantheon": "Hindu",
+      "primary_archetype": "The Great Mother",
+      "archetypes": [
+        "The Great Mother",
+        "The Shadow"
+      ],
+      "description": "Kali is the Hindu goddess associated with empowerment, time, death, violence, and doomsday. She is the fierce manifestation of the divine feminine, Shakti. She is dark, terrifying, and dancing on the ",
+      "color": "#96CEB4",
+      "pantheon_color": "#E8593C",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Vishnu",
+      "type": "deities",
+      "pantheon": "Hindu",
+      "primary_archetype": "The Self",
+      "archetypes": [
+        "The Self",
+        "The Wise Old Man"
+      ],
+      "description": "Vishnu is one of the principal deities of Hinduism, and the Supreme Being in Vaishnavism. He is the preserver and protector of the universe in the Hindu Trimurti alongside Brahma the creator and Shiva",
+      "color": "#FFD700",
+      "pantheon_color": "#E8593C",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Cronus",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 18.90909090909091
+    },
+    {
+      "id": "Minotaur",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Hydra",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Cyclops",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Python",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Typhon",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Underworld",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 13.454545454545455
+    },
+    {
+      "id": "Sea",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Sky",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Harvest",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Dead",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Love",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Wisdom",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Baldr",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Fenrir",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Hel",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Jormungandr",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Asgard",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Folkvangr",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Sun",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Horus",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Set",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 13.454545454545455
+    },
+    {
+      "id": "Osiris",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Balor",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "Trickster",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Wise Old Man",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "The Hero",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 15.272727272727273
+    },
+    {
+      "id": "The Shadow",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "Great Mother",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 15.272727272727273
+    },
+    {
+      "id": "Anima",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "The Child",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "The Self",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 11.636363636363637
+    },
+    {
+      "id": "He",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    },
+    {
+      "id": "She",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 9.818181818181818
+    }
+  ],
+  "links": [
+    {
+      "source": "Zeus",
+      "target": "Athena",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Zeus",
+      "target": "Apollo",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Zeus",
+      "target": "Artemis",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Zeus",
+      "target": "Ares",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Zeus",
+      "target": "Hephaestus",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Zeus",
+      "target": "Hermes",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Zeus",
+      "target": "Dionysus",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Zeus",
+      "target": "Perseus",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Zeus",
+      "target": "Hercules",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Zeus",
+      "target": "Persephone",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Zeus",
+      "target": "Hera",
+      "relation": "married",
+      "category": "family",
+      "weight": 2
+    },
+    {
+      "source": "Zeus",
+      "target": "Cronus",
+      "relation": "defeated",
+      "category": "conflict",
+      "weight": 2
+    },
+    {
+      "source": "Zeus",
+      "target": "Typhon",
+      "relation": "battled",
+      "category": "conflict",
+      "weight": 2
+    },
+    {
+      "source": "Zeus",
+      "target": "Sky",
+      "relation": "rules_over",
+      "category": "role",
+      "weight": 2
+    },
+    {
+      "source": "Zeus",
+      "target": "Wise Old Man",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Hera",
+      "target": "Ares",
+      "relation": "mother_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Hera",
+      "target": "Hephaestus",
+      "relation": "mother_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Athena",
+      "target": "Wisdom",
+      "relation": "embodies",
+      "category": "symbolic",
+      "weight": 2
+    },
+    {
+      "source": "Poseidon",
+      "target": "Theseus",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Poseidon",
+      "target": "Sea",
+      "relation": "rules_over",
+      "category": "role",
+      "weight": 2
+    },
+    {
+      "source": "Hades",
+      "target": "Underworld",
+      "relation": "rules_over",
+      "category": "role",
+      "weight": 2
+    },
+    {
+      "source": "Hades",
+      "target": "Persephone",
+      "relation": "married",
+      "category": "family",
+      "weight": 2
+    },
+    {
+      "source": "Hades",
+      "target": "The Shadow",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Hermes",
+      "target": "Dead",
+      "relation": "guides",
+      "category": "role",
+      "weight": 1
+    },
+    {
+      "source": "Hermes",
+      "target": "Trickster",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Apollo",
+      "target": "Python",
+      "relation": "killed",
+      "category": "conflict",
+      "weight": 3
+    },
+    {
+      "source": "Apollo",
+      "target": "The Child",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Love",
+      "relation": "embodies",
+      "category": "symbolic",
+      "weight": 2
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Psyche",
+      "relation": "guides",
+      "category": "role",
+      "weight": 1
+    },
+    {
+      "source": "Dionysus",
+      "target": "The Child",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Persephone",
+      "target": "Underworld",
+      "relation": "rules_over",
+      "category": "role",
+      "weight": 2
+    },
+    {
+      "source": "Persephone",
+      "target": "Anima",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Demeter",
+      "target": "Persephone",
+      "relation": "mother_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Demeter",
+      "target": "Harvest",
+      "relation": "rules_over",
+      "category": "role",
+      "weight": 2
+    },
+    {
+      "source": "Demeter",
+      "target": "Great Mother",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Gaia",
+      "target": "Cronus",
+      "relation": "mother_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Gaia",
+      "target": "Great Mother",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Hercules",
+      "target": "Hydra",
+      "relation": "fought",
+      "category": "conflict",
+      "weight": 2
+    },
+    {
+      "source": "Hercules",
+      "target": "Cerberus",
+      "relation": "defeated",
+      "category": "conflict",
+      "weight": 2
+    },
+    {
+      "source": "Hercules",
+      "target": "The Hero",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Perseus",
+      "target": "Medusa",
+      "relation": "killed",
+      "category": "conflict",
+      "weight": 3
+    },
+    {
+      "source": "Perseus",
+      "target": "The Hero",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Theseus",
+      "target": "Minotaur",
+      "relation": "defeated",
+      "category": "conflict",
+      "weight": 2
+    },
+    {
+      "source": "Achilles",
+      "target": "The Hero",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Odysseus",
+      "target": "Cyclops",
+      "relation": "battled",
+      "category": "conflict",
+      "weight": 2
+    },
+    {
+      "source": "Odin",
+      "target": "Thor",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Odin",
+      "target": "Loki",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Odin",
+      "target": "Baldr",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Odin",
+      "target": "Asgard",
+      "relation": "rules_over",
+      "category": "role",
+      "weight": 2
+    },
+    {
+      "source": "Odin",
+      "target": "Wise Old Man",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Thor",
+      "target": "Jormungandr",
+      "relation": "battled",
+      "category": "conflict",
+      "weight": 2
+    },
+    {
+      "source": "Thor",
+      "target": "Odin",
+      "relation": "son_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Loki",
+      "target": "Fenrir",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Loki",
+      "target": "Hel",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Loki",
+      "target": "Baldr",
+      "relation": "killed",
+      "category": "conflict",
+      "weight": 3
+    },
+    {
+      "source": "Loki",
+      "target": "Trickster",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Freya",
+      "target": "Folkvangr",
+      "relation": "rules_over",
+      "category": "role",
+      "weight": 2
+    },
+    {
+      "source": "Ra",
+      "target": "Sun",
+      "relation": "rules_over",
+      "category": "role",
+      "weight": 2
+    },
+    {
+      "source": "Ra",
+      "target": "The Self",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Isis",
+      "target": "Horus",
+      "relation": "mother_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Isis",
+      "target": "Great Mother",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Cerberus",
+      "target": "Underworld",
+      "relation": "guards",
+      "category": "role",
+      "weight": 1
+    },
+    {
+      "source": "Psyche",
+      "target": "Anima",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Gilgamesh",
+      "target": "The Hero",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Lugh",
+      "target": "Balor",
+      "relation": "killed",
+      "category": "conflict",
+      "weight": 3
+    },
+    {
+      "source": "Kali",
+      "target": "Great Mother",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Vishnu",
+      "target": "The Self",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "Cronus",
+      "target": "Zeus",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Cronus",
+      "target": "Hera",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Cronus",
+      "target": "Poseidon",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Cronus",
+      "target": "Hades",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Cronus",
+      "target": "Demeter",
+      "relation": "father_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "Horus",
+      "target": "Set",
+      "relation": "defeated",
+      "category": "conflict",
+      "weight": 2
+    },
+    {
+      "source": "Set",
+      "target": "Osiris",
+      "relation": "killed",
+      "category": "conflict",
+      "weight": 3
+    },
+    {
+      "source": "Set",
+      "target": "The Shadow",
+      "relation": "symbolizes",
+      "category": "symbolic",
+      "weight": 1
+    },
+    {
+      "source": "He",
+      "target": "Zeus",
+      "relation": "son_of",
+      "category": "family",
+      "weight": 3
+    },
+    {
+      "source": "She",
+      "target": "Zeus",
+      "relation": "daughter_of",
+      "category": "family",
+      "weight": 3
+    }
+  ]
+}
