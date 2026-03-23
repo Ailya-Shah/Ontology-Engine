@@ -78,9 +78,9 @@ python -m venv venv
 
 # Activate virtual environment
 # Windows (PowerShell):
-.\\venv\\Scripts\\Activate.ps1
+.\venv\Scripts\Activate.ps1
 # Windows (cmd):
-venv\\Scripts\\activate.bat
+venv\Scripts\activate.bat
 # Linux/macOS:
 source venv/bin/activate
 
@@ -271,29 +271,38 @@ Relations are directional and support multi-edges (MultiDiGraph).
 - 100 MB disk space
 - Internet connection (optional, for Wikipedia scraping)
 
-### Step-by-Step Installation
+### Step-by-Step Installation (Chronological)
 
 ```bash
-# 1. Clone the repository
-git clone <repository-url>
+# 1) Clone the repository
+git clone https://github.com/Ailya-Shah/Ontology-Engine.git
+
+# 2) Enter the project directory
 cd Ontology-Engine
 
-# 2. Create and activate virtual environment
+# 3) Create a virtual environment (choose ONE option)
+
+# Option A: venv (recommended)
 python -m venv venv
 
+# Option B: conda
+# conda create -n ontology-engine python=3.10 -y
+# conda activate ontology-engine
+
+# 4) Activate the virtual environment (venv only)
 # Windows (PowerShell):
-.\\venv\\Scripts\\Activate.ps1
+.\venv\Scripts\Activate.ps1
 
 # Windows (Command Prompt):
-venv\\Scripts\\activate.bat
+venv\Scripts\activate.bat
 
 # macOS/Linux:
 source venv/bin/activate
 
-# 3. Install dependencies
+# 5) Install dependencies
 pip install -r requirements.txt
 
-# 4. Verify installation
+# 6) Verify installation
 python -c "import streamlit, networkx, pandas; print('All dependencies installed.')"
 ```
 
@@ -640,4 +649,4 @@ For questions, issues, or contributions, please open an issue on the [GitHub rep
 
 ---
 
-**Last Updated**: March 2026
+**Last Updated**: 2026-03-23 13:30:20
