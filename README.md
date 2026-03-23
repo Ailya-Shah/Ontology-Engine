@@ -109,7 +109,6 @@ Ontology-Engine/
 │   ├── archetype_mapper.py       # Jungian scoring engine
 │   ├── relation_extractor.py     # Semantic relationship extraction
 │   ├── ontology.py               # NetworkX graph construction and D3 export
-│   └── connection_manager.py     # Optional database layer (placeholder)
 │
 ├── app/
 │   ├── __init__.py
@@ -117,17 +116,16 @@ Ontology-Engine/
 │
 ├── data/
 │   ├── raw/                      # Raw scraped or imported data
-│   ├── entities/                 # Processed entity JSON files
-│   └── relations/                # Extracted relationship data
+│   ├── entities/
+│   │   └── all_entities.json     # Processed entity registry
+│   └── relations/
+│       └── relations.json        # Extracted relationship data
 │
 ├── knowledge_graph/
-│   ├── graph.json                # Serialized graph structure
-│   ├── entities_full.json        # Complete entity registry
-│   └── relations_full.json       # Complete relation registry
+│   └── mythology_graph.json      # Serialized graph structure
 │
 ├── output/
-│   ├── d3_graph.json             # D3-formatted graph for visualization
-│   └── analysis_stats.json       # Computed network statistics
+│   └── graph_d3.json             # D3-formatted graph for visualization
 │
 ├── pipeline.py                   # Main orchestrator: execution, building, caching
 ├── requirements.txt              # Python dependencies
@@ -314,8 +312,8 @@ pipeline.run_pipeline(use_network=False)
 
 This creates:
 - `data/entities/` — Processed entity files
-- `knowledge_graph/graph.json` — Full graph structure
-- `output/d3_graph.json` — Visualization format
+- `knowledge_graph/mythology_graph.json` — Full graph structure
+- `output/graph_d3.json` — Visualization format
 
 #### Online Mode (With Wikipedia Scraping)
 
@@ -395,10 +393,10 @@ Network analysis and statistics:
 
 **No external database required.** All data is stored as JSON files:
 
-- **Entities**: `knowledge_graph/entities_full.json` — Complete entity registry
-- **Relations**: `knowledge_graph/relations_full.json` — Relationship data
-- **Graph**: `knowledge_graph/graph.json` — Serialized graph structure
-- **Visualization**: `output/d3_graph.json` — D3-formatted graph
+- **Entities**: `data/entities/all_entities.json` — Complete entity registry
+- **Relations**: `data/relations/relations.json` — Relationship data
+- **Graph**: `knowledge_graph/mythology_graph.json` — Serialized graph structure
+- **Visualization**: `output/graph_d3.json` — D3-formatted graph
 
 ### Runtime State
 
