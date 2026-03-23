@@ -70,27 +70,30 @@ The ontology is a heterogeneous information network consisting of:
 ### Installation & Run
 
 ```bash
-# Clone or navigate to project
+# 1) Clone the repository
+git clone https://github.com/Ailya-Shah/Ontology-Engine.git
+
+# 2) Enter the project directory
 cd Ontology-Engine
 
-# Create virtual environment
+# 3) Create a virtual environment
 python -m venv venv
 
-# Activate virtual environment
+# 4) Activate the virtual environment
 # Windows (PowerShell):
-.\\venv\\Scripts\\Activate.ps1
+.\venv\Scripts\Activate.ps1
 # Windows (cmd):
-venv\\Scripts\\activate.bat
+venv\Scripts\activate.bat
 # Linux/macOS:
 source venv/bin/activate
 
-# Install dependencies
+# 5) Install dependencies
 pip install -r requirements.txt
 
-# Build the knowledge graph (offline mode - no network required)
+# 6) Build the knowledge graph (offline mode - no network required)
 python -c "import pipeline; pipeline.run_pipeline(use_network=False)"
 
-# Launch the explorer
+# 7) Launch the explorer
 streamlit run app/ontology_explorer.py
 ```
 
@@ -269,29 +272,38 @@ Relations are directional and support multi-edges (MultiDiGraph).
 - 100 MB disk space
 - Internet connection (optional, for Wikipedia scraping)
 
-### Step-by-Step Installation
+### Step-by-Step Installation (Chronological)
 
 ```bash
-# 1. Clone the repository
-git clone <repository-url>
+# 1) Clone the repository
+git clone https://github.com/Ailya-Shah/Ontology-Engine.git
+
+# 2) Enter the project directory
 cd Ontology-Engine
 
-# 2. Create and activate virtual environment
+# 3) Create a virtual environment (choose ONE option)
+
+# Option A: venv (recommended)
 python -m venv venv
 
+# Option B: conda
+# conda create -n ontology-engine python=3.10 -y
+# conda activate ontology-engine
+
+# 4) Activate the virtual environment (venv only)
 # Windows (PowerShell):
-.\\venv\\Scripts\\Activate.ps1
+.\venv\Scripts\Activate.ps1
 
 # Windows (Command Prompt):
-venv\\Scripts\\activate.bat
+venv\Scripts\activate.bat
 
 # macOS/Linux:
 source venv/bin/activate
 
-# 3. Install dependencies
+# 5) Install dependencies
 pip install -r requirements.txt
 
-# 4. Verify installation
+# 6) Verify installation
 python -c "import streamlit, networkx, pandas; print('All dependencies installed.')"
 ```
 
@@ -310,10 +322,18 @@ import pipeline
 pipeline.run_pipeline(use_network=False)
 ```
 
+<<<<<<< HEAD
 This creates:
 - `data/entities/` — Processed entity files
 - `knowledge_graph/mythology_graph.json` — Full graph structure
 - `output/graph_d3.json` — Visualization format
+=======
+This creates/updates:
+- `data/entities/all_entities.json` — Consolidated entity registry
+- `data/relations/relations.json` — Extracted relationship data
+- `knowledge_graph/mythology_graph.json` — Full graph structure (used by the Streamlit app)
+- `output/graph_d3.json` — D3-formatted graph for visualization
+>>>>>>> 9ac911f1b8770474485716804dad242924770bab
 
 #### Online Mode (With Wikipedia Scraping)
 
@@ -321,7 +341,7 @@ This creates:
 import pipeline
 
 # Build with Wikipedia enrichment
-pipeline.run_pipeline(use_network=True, max_wiki_calls=50)
+pipeline.run_pipeline(use_network=True, max_scrape=50)
 ```
 
 **Note**: This requires internet and may take 2-5 minutes depending on network speed.
@@ -408,10 +428,17 @@ During execution:
 
 ### Data Rebuilding
 
+Re-run the pipeline to overwrite the generated JSON outputs:
+
 ```bash
-# Complete rebuild from source
-python -c "import pipeline; pipeline.run_pipeline(use_network=False, force_rebuild=True)"
+python -c "import pipeline; pipeline.run_pipeline(use_network=False)"
 ```
+
+For a completely clean rebuild, delete the generated folders/files first:
+- `data/entities/`
+- `data/relations/`
+- `knowledge_graph/`
+- `output/`
 
 ---
 
@@ -638,4 +665,4 @@ For questions, issues, or contributions, please open an issue on the [GitHub rep
 
 ---
 
-**Last Updated**: March 2026
+**Last Updated**: 2026-03-23
