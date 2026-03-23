@@ -652,7 +652,7 @@ For questions, issues, or contributions, please open an issue on the [GitHub rep
 
 ## Acknowledgments
 
-**Author**: [Ailya Shah](https://www.linkedin.com/in/ailya-shah/) — BS Data Science, SEECS, NUST
+**Author**: Ailya Shah — BS Data Science, SEECS, NUST
 
 **Framework Credits**:
 - **Jungian Psychology**: Carl Jung's work on archetypes and the collective unconscious
