@@ -1,0 +1,527 @@
+[
+  {
+    "source": "Zeus",
+    "relation": "father_of",
+    "target": "Athena",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Zeus",
+    "relation": "father_of",
+    "target": "Apollo",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Zeus",
+    "relation": "father_of",
+    "target": "Artemis",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Zeus",
+    "relation": "father_of",
+    "target": "Ares",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Zeus",
+    "relation": "father_of",
+    "target": "Hephaestus",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Zeus",
+    "relation": "father_of",
+    "target": "Hermes",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Zeus",
+    "relation": "father_of",
+    "target": "Dionysus",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Zeus",
+    "relation": "father_of",
+    "target": "Perseus",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Zeus",
+    "relation": "father_of",
+    "target": "Hercules",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Zeus",
+    "relation": "father_of",
+    "target": "Persephone",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Zeus",
+    "relation": "married",
+    "target": "Hera",
+    "category": "family",
+    "weight": 2
+  },
+  {
+    "source": "Hera",
+    "relation": "mother_of",
+    "target": "Ares",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Hera",
+    "relation": "mother_of",
+    "target": "Hephaestus",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Cronus",
+    "relation": "father_of",
+    "target": "Zeus",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Cronus",
+    "relation": "father_of",
+    "target": "Hera",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Cronus",
+    "relation": "father_of",
+    "target": "Poseidon",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Cronus",
+    "relation": "father_of",
+    "target": "Hades",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Cronus",
+    "relation": "father_of",
+    "target": "Demeter",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Gaia",
+    "relation": "mother_of",
+    "target": "Cronus",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Demeter",
+    "relation": "mother_of",
+    "target": "Persephone",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Poseidon",
+    "relation": "father_of",
+    "target": "Theseus",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Perseus",
+    "relation": "killed",
+    "target": "Medusa",
+    "category": "conflict",
+    "weight": 3
+  },
+  {
+    "source": "Theseus",
+    "relation": "defeated",
+    "target": "Minotaur",
+    "category": "conflict",
+    "weight": 2
+  },
+  {
+    "source": "Hercules",
+    "relation": "fought",
+    "target": "Hydra",
+    "category": "conflict",
+    "weight": 2
+  },
+  {
+    "source": "Hercules",
+    "relation": "defeated",
+    "target": "Cerberus",
+    "category": "conflict",
+    "weight": 2
+  },
+  {
+    "source": "Odysseus",
+    "relation": "battled",
+    "target": "Cyclops",
+    "category": "conflict",
+    "weight": 2
+  },
+  {
+    "source": "Apollo",
+    "relation": "killed",
+    "target": "Python",
+    "category": "conflict",
+    "weight": 3
+  },
+  {
+    "source": "Zeus",
+    "relation": "defeated",
+    "target": "Cronus",
+    "category": "conflict",
+    "weight": 2
+  },
+  {
+    "source": "Zeus",
+    "relation": "battled",
+    "target": "Typhon",
+    "category": "conflict",
+    "weight": 2
+  },
+  {
+    "source": "Hades",
+    "relation": "rules_over",
+    "target": "Underworld",
+    "category": "role",
+    "weight": 2
+  },
+  {
+    "source": "Poseidon",
+    "relation": "rules_over",
+    "target": "Sea",
+    "category": "role",
+    "weight": 2
+  },
+  {
+    "source": "Zeus",
+    "relation": "rules_over",
+    "target": "Sky",
+    "category": "role",
+    "weight": 2
+  },
+  {
+    "source": "Demeter",
+    "relation": "rules_over",
+    "target": "Harvest",
+    "category": "role",
+    "weight": 2
+  },
+  {
+    "source": "Cerberus",
+    "relation": "guards",
+    "target": "Underworld",
+    "category": "role",
+    "weight": 1
+  },
+  {
+    "source": "Hermes",
+    "relation": "guides",
+    "target": "Dead",
+    "category": "role",
+    "weight": 1
+  },
+  {
+    "source": "Aphrodite",
+    "relation": "embodies",
+    "target": "Love",
+    "category": "symbolic",
+    "weight": 2
+  },
+  {
+    "source": "Athena",
+    "relation": "embodies",
+    "target": "Wisdom",
+    "category": "symbolic",
+    "weight": 2
+  },
+  {
+    "source": "Persephone",
+    "relation": "rules_over",
+    "target": "Underworld",
+    "category": "role",
+    "weight": 2
+  },
+  {
+    "source": "Hades",
+    "relation": "married",
+    "target": "Persephone",
+    "category": "family",
+    "weight": 2
+  },
+  {
+    "source": "Aphrodite",
+    "relation": "guides",
+    "target": "Psyche",
+    "category": "role",
+    "weight": 1
+  },
+  {
+    "source": "Odin",
+    "relation": "father_of",
+    "target": "Thor",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Odin",
+    "relation": "father_of",
+    "target": "Loki",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Odin",
+    "relation": "father_of",
+    "target": "Baldr",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Loki",
+    "relation": "father_of",
+    "target": "Fenrir",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Loki",
+    "relation": "father_of",
+    "target": "Hel",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Loki",
+    "relation": "killed",
+    "target": "Baldr",
+    "category": "conflict",
+    "weight": 3
+  },
+  {
+    "source": "Thor",
+    "relation": "battled",
+    "target": "Jormungandr",
+    "category": "conflict",
+    "weight": 2
+  },
+  {
+    "source": "Odin",
+    "relation": "rules_over",
+    "target": "Asgard",
+    "category": "role",
+    "weight": 2
+  },
+  {
+    "source": "Freya",
+    "relation": "rules_over",
+    "target": "Folkvangr",
+    "category": "role",
+    "weight": 2
+  },
+  {
+    "source": "Ra",
+    "relation": "rules_over",
+    "target": "Sun",
+    "category": "role",
+    "weight": 2
+  },
+  {
+    "source": "Isis",
+    "relation": "mother_of",
+    "target": "Horus",
+    "category": "family",
+    "weight": 3
+  },
+  {
+    "source": "Set",
+    "relation": "killed",
+    "target": "Osiris",
+    "category": "conflict",
+    "weight": 3
+  },
+  {
+    "source": "Horus",
+    "relation": "defeated",
+    "target": "Set",
+    "category": "conflict",
+    "weight": 2
+  },
+  {
+    "source": "Lugh",
+    "relation": "killed",
+    "target": "Balor",
+    "category": "conflict",
+    "weight": 3
+  },
+  {
+    "source": "Hermes",
+    "relation": "symbolizes",
+    "target": "Trickster",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Loki",
+    "relation": "symbolizes",
+    "target": "Trickster",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Odin",
+    "relation": "symbolizes",
+    "target": "Wise Old Man",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Zeus",
+    "relation": "symbolizes",
+    "target": "Wise Old Man",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Hercules",
+    "relation": "symbolizes",
+    "target": "The Hero",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Perseus",
+    "relation": "symbolizes",
+    "target": "The Hero",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Gilgamesh",
+    "relation": "symbolizes",
+    "target": "The Hero",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Achilles",
+    "relation": "symbolizes",
+    "target": "The Hero",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Hades",
+    "relation": "symbolizes",
+    "target": "The Shadow",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Set",
+    "relation": "symbolizes",
+    "target": "The Shadow",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Gaia",
+    "relation": "symbolizes",
+    "target": "Great Mother",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Demeter",
+    "relation": "symbolizes",
+    "target": "Great Mother",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Isis",
+    "relation": "symbolizes",
+    "target": "Great Mother",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Kali",
+    "relation": "symbolizes",
+    "target": "Great Mother",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Persephone",
+    "relation": "symbolizes",
+    "target": "Anima",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Psyche",
+    "relation": "symbolizes",
+    "target": "Anima",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Dionysus",
+    "relation": "symbolizes",
+    "target": "The Child",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Apollo",
+    "relation": "symbolizes",
+    "target": "The Child",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Ra",
+    "relation": "symbolizes",
+    "target": "The Self",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "Vishnu",
+    "relation": "symbolizes",
+    "target": "The Self",
+    "category": "symbolic",
+    "weight": 1
+  },
+  {
+    "source": "He",
+    "relation": "son_of",
+    "target": "Apollo",
+    "category": "family",
+    "weight": 3
+  }
+]

@@ -12,7 +12,7 @@ class MythologicalOntology:
 
     def add_entity(self, entity: Dict):
         name = entity.get("name", "").strip()
-        if not name: return
+        if not name or "[z]" in name.lower(): return
         self._entities[name] = entity
         self.graph.add_node(name,
             type=entity.get("type","unknown"),

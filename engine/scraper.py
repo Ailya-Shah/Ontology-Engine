@@ -60,6 +60,11 @@ class MythologyScraper:
             print(f"    ⟳ From cache: {len(cached)} stubs")
             return cached
         
+        # Irrelevant page patterns to skip
+        skip_patterns = ["disambiguation", "List of", "Category:", "Wikipedia:", "Help:", "File:", "Template:",
+                         "index", "outline", "portal", "talk:", "user:", "(band)", "(album)", "(film)", 
+                         "(journal)", "(organization)", "season", "episode"]
+        
         # Retry logic with backoff
         max_retries = 3
         for attempt in range(max_retries):
@@ -68,11 +73,21 @@ class MythologyScraper:
                 r.raise_for_status()
                 links = re.findall(r'href="(/wiki/[^":]+)"[^>]*title="([^"]+)"', r.text)
                 stubs, seen = [], set()
+                bad_titles = {
+                    "deity",
+                    "ancient greece",
+                    "visit the main page [z]",
+                    "visit main page [z]",
+                }
+
                 for href, title in links:
                     if len(stubs) >= max_items: break
                     if href in self._seen or href in seen: continue
                     if any(x in href for x in ["Category:","Wikipedia:","Help:","File:","Template:"]): continue
-                    if any(x in title for x in ["disambiguation","List of","Category:"]): continue
+                    # More aggressive filtering
+                    if any(pattern.lower() in title.lower() for pattern in skip_patterns): continue
+                    if title.strip().lower() in bad_titles: continue
+                    if len(title) < 3 or len(title) > 100: continue  # Skip very short or very long titles
                     seen.add(href)
                     stubs.append({"name":title,"url":self.BASE+href,"type":entity_type,"pantheon":pantheon})
                 print(f"    ✓ {len(stubs)} stubs")
@@ -150,7 +165,7 @@ class MythologyScraper:
             except Exception:
                 return None
 
-    def run(self, sources=None, delay=0.2, force_network=False, max_entities=60):
+    def run(self, sources=None, delay=0.2, force_network=False, max_entities=120):
         if sources is None: sources = SCRAPE_SOURCES
         
         # Check network availability
@@ -171,8 +186,32 @@ class MythologyScraper:
         seen, unique = set(), []
         for s in stubs:
             if s["url"] not in seen: seen.add(s["url"]); unique.append(s)
-        print(f"\n  {len(unique)} unique stubs (limiting to {max_entities} for performance)")
-        unique = unique[:max_entities]  # Limit for performance
+        print(f"\n  {len(unique)} unique stubs")
+
+        # Balance sampling across pantheons so early source ordering does not bias results.
+        if max_entities and len(unique) > max_entities:
+            buckets = {}
+            for item in unique:
+                p = item.get("pantheon", "Unknown")
+                buckets.setdefault(p, []).append(item)
+
+            balanced = []
+            pantheons = sorted(buckets.keys())
+            i = 0
+            while len(balanced) < max_entities:
+                progressed = False
+                for p in pantheons:
+                    if i < len(buckets[p]):
+                        balanced.append(buckets[p][i])
+                        progressed = True
+                        if len(balanced) >= max_entities:
+                            break
+                if not progressed:
+                    break
+                i += 1
+
+            unique = balanced
+            print(f"  ✓ Balanced selection: {len(unique)} stubs across {len(pantheons)} pantheons")
         
         print(f"\n--- Fetching details (1/{len(unique)}) ---")
         self.entities = []

@@ -4,15 +4,14 @@
       "id": "Visit the main page [z]",
       "type": "deities",
       "pantheon": "Greek",
-      "primary_archetype": "The Trickster",
+      "primary_archetype": "The Self",
       "archetypes": [
-        "The Trickster",
         "The Self",
         "The Wise Old Man",
-        "The Child"
+        "The Trickster"
       ],
-      "description": "Ethan Hawke (born 1970) is an American actor, author and filmmaker whose career on screen and stage has spanned over four decades. Known for his versatile range of roles—often in art films—and collabo",
-      "color": "#F7DC6F",
+      "description": "\"Despre tine\" (Romanian for 'About You') is a dance-pop song by the Moldovan band O-Zone, released as a single by Media Services in Romania around December&#160;2002. Written and produced by the band'",
+      "color": "#FFD700",
       "pantheon_color": "#4A90D9",
       "size": 8
     },
@@ -302,7 +301,7 @@
       "description": "In ancient Greek religion and mythology, Apollo&#91;a&#93; is one of the Olympian deities. His numerous functions include healing, prophecy, music, poetry, and archery. He is the son of Zeus and Leto,",
       "color": "#87CEEB",
       "pantheon_color": "#4A90D9",
-      "size": 11.934426229508198
+      "size": 12.444444444444445
     },
     {
       "id": "Apotropaei",
@@ -465,7 +464,7 @@
       "description": "In Greek mythology, Achilles (/əˈkɪliːz/&#32;ⓘ ə-KIL-eez) or Achilleus (Ancient Greek: Ἀχιλλεύς, romanized:&#160;Achilleús) was a hero of the Trojan War who was known as being the greatest of all the ",
       "color": "#E8593C",
       "pantheon_color": "#4A90D9",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Aeneas",
@@ -690,231 +689,6 @@
       "size": 8
     },
     {
-      "id": "Athis (mythology)",
-      "type": "heroes",
-      "pantheon": "Greek",
-      "primary_archetype": "The Anima",
-      "archetypes": [
-        "The Anima",
-        "The Child"
-      ],
-      "description": "In Book V of Ovid's mock-epic Metamorphoses, Athis is a young demigod of outstanding beauty from India, son of Limnaee, a nymph of the Ganges.",
-      "color": "#DDA0DD",
-      "pantheon_color": "#4A90D9",
-      "size": 8
-    },
-    {
-      "id": "Bellerophon",
-      "type": "heroes",
-      "pantheon": "Greek",
-      "primary_archetype": "The Wise Old Man",
-      "archetypes": [
-        "The Wise Old Man",
-        "The Self",
-        "The Hero",
-        "The Child"
-      ],
-      "description": "Bellerophon&#91;1&#93; or Bellerophontes (Ancient Greek: Βελλεροφῶν; Βελλεροφόντης, lit.&#8201;'slayer of Belleros') or Hipponous (Ancient Greek: Ἱππόνοος, lit.&#8201;'horse-knower'),&#91;2&#93; was a",
-      "color": "#4ECDC4",
-      "pantheon_color": "#4A90D9",
-      "size": 8
-    },
-    {
-      "id": "Ægir",
-      "type": "deities",
-      "pantheon": "Norse",
-      "primary_archetype": "The Self",
-      "archetypes": [
-        "The Self",
-        "The Wise Old Man",
-        "The Great Mother",
-        "The Trickster"
-      ],
-      "description": "In Norse mythology, Ægir (anglicised as Aegir, Old Norse: 'sea'), Hlér (Old Norse: 'sea'), or Gymir (Old Norse less clearly: 'sea' or 'engulfer'), is a jötunn and personification of the sea. In the Ol",
-      "color": "#FFD700",
-      "pantheon_color": "#7B68EE",
-      "size": 8
-    },
-    {
-      "id": "Almáttki áss",
-      "type": "deities",
-      "pantheon": "Norse",
-      "primary_archetype": "The Self",
-      "archetypes": [
-        "The Self"
-      ],
-      "description": "Almáttki áss (the almighty áss \"god\") is an unknown Norse god evoked in an Icelandic legal oath sworn on a temple ring, mentioned in Landnámabók (Hauksbók 268).",
-      "color": "#FFD700",
-      "pantheon_color": "#7B68EE",
-      "size": 8
-    },
-    {
-      "id": "Annar",
-      "type": "deities",
-      "pantheon": "Norse",
-      "primary_archetype": "The Great Mother",
-      "archetypes": [
-        "The Great Mother",
-        "The Shadow"
-      ],
-      "description": "In Norse mythology, according to the Gylfaginning, Annar (Old Norse Annarr 'second, another') is the father of Jörð (Mother Earth) by Nótt (the Night).&#91;1&#93; The form Ónar (Old Norse Ónarr 'gapin",
-      "color": "#96CEB4",
-      "pantheon_color": "#7B68EE",
-      "size": 8
-    },
-    {
-      "id": "Auðr (mythology)",
-      "type": "deities",
-      "pantheon": "Norse",
-      "primary_archetype": "The Shadow",
-      "archetypes": [
-        "The Shadow"
-      ],
-      "description": "In Norse mythology, Auðr (Old Norse \"prosperity\"&#91;1&#93;) is the son of the personified night, Nótt, fathered by Naglfari, and uncle of Thor. Auðr is attested in the Prose Edda, written in the 13th",
-      "color": "#6B7280",
-      "pantheon_color": "#7B68EE",
-      "size": 8
-    },
-    {
-      "id": "Baldr",
-      "type": "deities",
-      "pantheon": "Norse",
-      "primary_archetype": "The Self",
-      "archetypes": [
-        "The Self",
-        "The Wise Old Man",
-        "The Great Mother",
-        "The Hero"
-      ],
-      "description": "Baldr (Old Norse also Balder, Baldur) is a god in Germanic mythology. In Norse mythology, he is a son of the god Odin and the goddess Frigg, and has numerous brothers, such as Thor and Váli. In wider ",
-      "color": "#FFD700",
-      "pantheon_color": "#7B68EE",
-      "size": 9.967213114754099
-    },
-    {
-      "id": "Borr",
-      "type": "deities",
-      "pantheon": "Norse",
-      "primary_archetype": "The Wise Old Man",
-      "archetypes": [
-        "The Wise Old Man",
-        "The Self"
-      ],
-      "description": "In Norse mythology, Borr or Burr&#91;a&#93; (Old Norse: 'borer'&#91;1&#93; sometimes anglicized Bor, Bör or Bur) was the son of Búri. Borr was the husband of Bestla and the father of Odin, Vili and Vé",
-      "color": "#4ECDC4",
-      "pantheon_color": "#7B68EE",
-      "size": 8
-    },
-    {
-      "id": "Bragi",
-      "type": "deities",
-      "pantheon": "Norse",
-      "primary_archetype": "The Self",
-      "archetypes": [
-        "The Self",
-        "The Wise Old Man",
-        "The Great Mother"
-      ],
-      "description": "Bragi (Old Norse) is a figure in Norse mythology, and the god of poetry according to Snorri.&#91;1&#93; The Prose Edda, Lokasenna and Grettis saga all portray him as the husband of the goddess Iðunn.&",
-      "color": "#FFD700",
-      "pantheon_color": "#7B68EE",
-      "size": 8
-    },
-    {
-      "id": "Búri",
-      "type": "deities",
-      "pantheon": "Norse",
-      "primary_archetype": "The Self",
-      "archetypes": [
-        "The Self",
-        "The Trickster"
-      ],
-      "description": "In Norse mythology, Búri (Old Norse: &#91;ˈbuːre&#93;) is a divinity god 'producer, father' of all other gods,&#91;1&#93; and an early ancestor of the Æsir gods of the principal pantheon in Old Norse ",
-      "color": "#FFD700",
-      "pantheon_color": "#7B68EE",
-      "size": 8
-    },
-    {
-      "id": "Dagr",
-      "type": "deities",
-      "pantheon": "Norse",
-      "primary_archetype": "The Self",
-      "archetypes": [
-        "The Self",
-        "The Wise Old Man",
-        "The Shadow",
-        "The Great Mother",
-        "The Trickster",
-        "The Child"
-      ],
-      "description": "Dagr (Old Norse 'day')&#91;1&#93; is the divine personification of the day in Norse mythology. He appears in the Poetic Edda, compiled in the 13th century from earlier traditional sources, and the Pro",
-      "color": "#FFD700",
-      "pantheon_color": "#7B68EE",
-      "size": 8
-    },
-    {
-      "id": "Dellingr",
-      "type": "deities",
-      "pantheon": "Norse",
-      "primary_archetype": "The Self",
-      "archetypes": [
-        "The Self",
-        "The Wise Old Man",
-        "The Shadow",
-        "The Great Mother",
-        "The Child"
-      ],
-      "description": "In Norse mythology, Dellingr (Old Norse possibly \"the dayspring\"&#91;1&#93; or \"shining one\"&#91;2&#93;) is a god. Dellingr is attested in the Poetic Edda, compiled in the 13th century from earlier tr",
-      "color": "#FFD700",
-      "pantheon_color": "#7B68EE",
-      "size": 8
-    },
-    {
-      "id": "Forseti",
-      "type": "deities",
-      "pantheon": "Norse",
-      "primary_archetype": "The Self",
-      "archetypes": [
-        "The Self",
-        "The Shadow",
-        "The Wise Old Man",
-        "The Trickster"
-      ],
-      "description": "Forseti (Old Norse \"the presiding one\", \"president\" in modern Icelandic and Faroese) is the god of justice and reconciliation in Norse mythology. He is generally identified with Fosite, a god of the F",
-      "color": "#FFD700",
-      "pantheon_color": "#7B68EE",
-      "size": 8
-    },
-    {
-      "id": "Freyr",
-      "type": "deities",
-      "pantheon": "Norse",
-      "primary_archetype": "The Self",
-      "archetypes": [
-        "The Self",
-        "The Great Mother",
-        "The Trickster",
-        "The Wise Old Man"
-      ],
-      "description": "In Norse mythology, Freyr (Old Norse: \"(the) Lord\") is the god associated with kingship, fertility, peace, prosperity, fair weather, and good harvest. Freyr, sometimes referred to as Yngvi-Freyr, was ",
-      "color": "#FFD700",
-      "pantheon_color": "#7B68EE",
-      "size": 8
-    },
-    {
-      "id": "Glenr",
-      "type": "deities",
-      "pantheon": "Norse",
-      "primary_archetype": "The Great Mother",
-      "archetypes": [
-        "The Great Mother"
-      ],
-      "description": "In Norse mythology, Glenr (Old Norse\" &#91;ˈɡlenz̠&#93;, \"opening in the clouds\"&#91;1&#93;) is the husband of the goddess Sól, who drives the horses of the sun across the sky. It is stated that they ",
-      "color": "#96CEB4",
-      "pantheon_color": "#7B68EE",
-      "size": 8
-    },
-    {
       "id": "Zeus",
       "type": "unknown",
       "pantheon": "Unknown",
@@ -923,7 +697,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 22.75409836065574
+      "size": 24.666666666666668
     },
     {
       "id": "Athena",
@@ -934,7 +708,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Artemis",
@@ -945,7 +719,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Ares",
@@ -956,7 +730,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Hephaestus",
@@ -967,7 +741,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Hermes",
@@ -978,7 +752,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 10.950819672131146
+      "size": 11.333333333333332
     },
     {
       "id": "Dionysus",
@@ -989,7 +763,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Perseus",
@@ -1000,7 +774,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 10.950819672131146
+      "size": 11.333333333333332
     },
     {
       "id": "Hercules",
@@ -1011,7 +785,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 11.934426229508198
+      "size": 12.444444444444445
     },
     {
       "id": "Persephone",
@@ -1022,7 +796,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 12.918032786885245
+      "size": 13.555555555555555
     },
     {
       "id": "Hera",
@@ -1033,7 +807,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 11.934426229508198
+      "size": 12.444444444444445
     },
     {
       "id": "Cronus",
@@ -1044,7 +818,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 13.901639344262295
+      "size": 14.666666666666666
     },
     {
       "id": "Poseidon",
@@ -1055,7 +829,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 10.950819672131146
+      "size": 11.333333333333332
     },
     {
       "id": "Hades",
@@ -1066,7 +840,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 11.934426229508198
+      "size": 12.444444444444445
     },
     {
       "id": "Demeter",
@@ -1077,7 +851,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 11.934426229508198
+      "size": 12.444444444444445
     },
     {
       "id": "Gaia",
@@ -1088,7 +862,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Theseus",
@@ -1099,7 +873,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Medusa",
@@ -1110,7 +884,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Minotaur",
@@ -1121,7 +895,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Hydra",
@@ -1132,7 +906,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Cerberus",
@@ -1143,7 +917,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Odysseus",
@@ -1154,7 +928,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Cyclops",
@@ -1165,7 +939,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Python",
@@ -1176,7 +950,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Typhon",
@@ -1187,7 +961,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Underworld",
@@ -1198,7 +972,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 10.950819672131146
+      "size": 11.333333333333332
     },
     {
       "id": "Sea",
@@ -1209,7 +983,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Sky",
@@ -1220,7 +994,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Harvest",
@@ -1231,7 +1005,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Dead",
@@ -1242,7 +1016,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Aphrodite",
@@ -1253,7 +1027,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Love",
@@ -1264,7 +1038,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Wisdom",
@@ -1275,7 +1049,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Psyche",
@@ -1286,7 +1060,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Odin",
@@ -1297,7 +1071,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 12.918032786885245
+      "size": 13.555555555555555
     },
     {
       "id": "Thor",
@@ -1308,7 +1082,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Loki",
@@ -1319,7 +1093,18 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 12.918032786885245
+      "size": 13.555555555555555
+    },
+    {
+      "id": "Baldr",
+      "type": "unknown",
+      "pantheon": "Unknown",
+      "primary_archetype": "",
+      "archetypes": [],
+      "description": "",
+      "color": "#95A5A6",
+      "pantheon_color": "#95A5A6",
+      "size": 10.222222222222221
     },
     {
       "id": "Fenrir",
@@ -1330,7 +1115,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Hel",
@@ -1341,7 +1126,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Jormungandr",
@@ -1352,7 +1137,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Asgard",
@@ -1363,7 +1148,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Freya",
@@ -1374,7 +1159,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Folkvangr",
@@ -1385,7 +1170,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Ra",
@@ -1396,7 +1181,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Sun",
@@ -1407,7 +1192,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Isis",
@@ -1418,7 +1203,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Horus",
@@ -1429,7 +1214,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Set",
@@ -1440,7 +1225,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 10.950819672131146
+      "size": 11.333333333333332
     },
     {
       "id": "Osiris",
@@ -1451,7 +1236,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Lugh",
@@ -1462,7 +1247,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Balor",
@@ -1473,7 +1258,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Trickster",
@@ -1484,7 +1269,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Wise Old Man",
@@ -1495,7 +1280,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "The Hero",
@@ -1506,7 +1291,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 11.934426229508198
+      "size": 12.444444444444445
     },
     {
       "id": "Gilgamesh",
@@ -1517,7 +1302,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "The Shadow",
@@ -1528,7 +1313,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Great Mother",
@@ -1539,7 +1324,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 11.934426229508198
+      "size": 12.444444444444445
     },
     {
       "id": "Kali",
@@ -1550,7 +1335,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "Anima",
@@ -1561,7 +1346,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "The Child",
@@ -1572,7 +1357,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "The Self",
@@ -1583,7 +1368,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 9.967213114754099
+      "size": 10.222222222222221
     },
     {
       "id": "Vishnu",
@@ -1594,7 +1379,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     },
     {
       "id": "He",
@@ -1605,7 +1390,7 @@
       "description": "",
       "color": "#95A5A6",
       "pantheon_color": "#95A5A6",
-      "size": 8.98360655737705
+      "size": 9.11111111111111
     }
   ],
   "links": [

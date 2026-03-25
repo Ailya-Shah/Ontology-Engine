@@ -66,28 +66,139 @@ def load_onto():
 
 @st.cache_data
 def load_entities():
+    def _is_valid_entity_name(name: str) -> bool:
+        if not name:
+            return False
+        n = name.strip()
+        nl = n.lower()
+        if not n or "[z]" in nl:
+            return False
+        junk_names = {
+            "deity",
+            "ancient greece",
+            "visit the main page [z]",
+            "visit main page [z]",
+        }
+        if nl in junk_names:
+            return False
+        return True
+
+    def _merge_entities(base_entities, extra_entities):
+        merged = {}
+        for item in list(base_entities) + list(extra_entities):
+            name = (item or {}).get("name", "").strip()
+            if not _is_valid_entity_name(name):
+                continue
+            key = name.lower()
+            existing = merged.get(key)
+            if existing is None:
+                cleaned = dict(item)
+                cleaned["name"] = name
+                cleaned["pantheon"] = (cleaned.get("pantheon") or "Unknown").strip() or "Unknown"
+                cleaned.setdefault("description", "")
+                cleaned.setdefault("type", "unknown")
+                cleaned.setdefault("aliases", [])
+                cleaned.setdefault("infobox", {})
+                merged[key] = cleaned
+                continue
+
+            # Prefer richer records and known pantheons.
+            if not existing.get("description") and item.get("description"):
+                existing["description"] = item["description"]
+            if existing.get("pantheon", "Unknown") == "Unknown" and item.get("pantheon"):
+                existing["pantheon"] = item.get("pantheon")
+            if existing.get("type", "unknown") == "unknown" and item.get("type"):
+                existing["type"] = item.get("type")
+            if not existing.get("aliases") and item.get("aliases"):
+                existing["aliases"] = item.get("aliases")
+            if not existing.get("infobox") and item.get("infobox"):
+                existing["infobox"] = item.get("infobox")
+
+        return sorted(merged.values(), key=lambda e: e["name"])
+
+    from engine.scraper import SEED_ENTITIES
     p = ROOT/"data"/"entities"/"all_entities.json"
     if p.exists():
-        with open(p, encoding="utf-8") as f: return json.load(f)
-    from engine.scraper import SEED_ENTITIES
+        with open(p, encoding="utf-8") as f:
+            saved = json.load(f)
+        return _merge_entities(saved, SEED_ENTITIES)
     from engine.archetype_mapper import ArchetypeMapper
-    ents = list(SEED_ENTITIES)
+    ents = _merge_entities(SEED_ENTITIES, [])
     ArchetypeMapper().enrich_entities(ents)
     return ents
 
 onto    = load_onto()
 entities = load_entities()
 
+def _normalize_label(name: str) -> str:
+    n = (name or "").strip().lower()
+    if n.startswith("the "):
+        n = n[4:]
+    return n
+
+_ARCHETYPE_LABELS = {
+    _normalize_label(a) for a in ARCHETYPES.keys()
+}
+_ARCHETYPE_LABELS.update({"animus"})
+
+def _is_archetype_label(name: str) -> bool:
+    return _normalize_label(name) in _ARCHETYPE_LABELS
+
+_ALLOWED_ENTITY_TYPES = {"deity", "deities", "hero", "heroes", "monster", "monsters"}
+_PANTHEON_LABELS = {"greek", "norse", "egyptian", "hindu", "celtic", "sumerian", "roman", "unknown"}
+
+def _is_entity_type(type_name: str) -> bool:
+    return (type_name or "").strip().lower() in _ALLOWED_ENTITY_TYPES
+
+def _is_valid_name_for_ui(name: str) -> bool:
+    if not name:
+        return False
+    nl = name.lower()
+    if "[z]" in nl:
+        return False
+    if nl.strip() in {"deity", "ancient greece", "visit the main page [z]", "visit main page [z]"}:
+        return False
+    return True
+
+def _is_real_entity_record(entity: dict) -> bool:
+    name = (entity or {}).get("name", "")
+    n = _normalize_label(name)
+    if not _is_valid_name_for_ui(name):
+        return False
+    if _is_archetype_label(name):
+        return False
+    if n in _PANTHEON_LABELS:
+        return False
+    if "mythology" in n or "pantheon" in n or "category:" in n:
+        return False
+    if not _is_entity_type((entity or {}).get("type", "")):
+        return False
+    return True
+
+# Keep entity catalog sourced from entity records only.
+entities = sorted([e for e in entities if _is_valid_name_for_ui(e.get("name", ""))], key=lambda e: e["name"])
+
+# Ensure entities are enriched with archetypes
+from engine.archetype_mapper import ArchetypeMapper
+ArchetypeMapper().enrich_entities(entities)
+
+# Update graph nodes with archetype info from entities
+for e in entities:
+    name = e.get("name", "")
+    if name and name in onto.graph.nodes():
+        onto.graph.nodes[name]["primary_archetype"] = e.get("primary_archetype", "")
+        onto.graph.nodes[name]["archetypes"] = e.get("archetypes", [])
+        onto.graph.nodes[name]["archetype_scores"] = e.get("archetype_scores", {})
+
 # Bootstrap graph from entities if empty
 if onto.graph.number_of_nodes() == 0 and entities:
-    from engine.archetype_mapper import ArchetypeMapper
     from engine.relation_extractor import RelationExtractor, CURATED_RELATIONS
-    ArchetypeMapper().enrich_entities(entities)
     for e in entities: onto.add_entity(e)
     ex = RelationExtractor(); ex.extracted = list(CURATED_RELATIONS)
     onto.add_relations_bulk(ex.to_records())
 
-entity_names = sorted(e["name"] for e in entities)
+entity_names = sorted(e["name"] for e in entities if _is_valid_name_for_ui(e.get("name", "")))
+
 stats = onto.stats()
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
@@ -105,9 +216,14 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 # ══ OVERVIEW ══════════════════════════════════════════════════════════════════
 if mode == "Overview":
+    known_pantheons = sorted({
+        e.get("pantheon", "Unknown") for e in entities
+        if (e.get("pantheon") or "Unknown") != "Unknown"
+    })
+    pantheon_count = len(known_pantheons)
     c1,c2,c3,c4 = st.columns(4)
     for col,lbl,val in [(c1,"Entities",stats["nodes"]),(c2,"Relations",stats["edges"]),
-                        (c3,"Archetypes",len(ARCHETYPES)),(c4,"Pantheons",len(set(e.get("pantheon","?") for e in entities)))]:
+                        (c3,"Archetypes",len(ARCHETYPES)),(c4,"Pantheons",pantheon_count)]:
         with col:
             st.markdown(f'<div class="metric-box"><div class="metric-val">{val}</div><div class="metric-lbl">{lbl}</div></div>', unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
@@ -137,10 +253,12 @@ if mode == "Overview":
 # ══ ENTITY EXPLORER ═══════════════════════════════════════════════════════════
 elif mode == "Entity Explorer":
     st.markdown("### Entity Explorer")
+    view_entities = [e for e in entities if _is_real_entity_record(e)]
+    pantheon_values = sorted({(e.get("pantheon") or "Unknown") for e in view_entities})
     col_s,col_f = st.columns([2,1])
     with col_s: query = st.text_input("Search", placeholder="e.g. Zeus, hero, underworld…")
-    with col_f: pfilter = st.selectbox("Pantheon",["All"]+sorted(set(e.get("pantheon","Unknown") for e in entities)))
-    filtered = entities
+    with col_f: pfilter = st.selectbox("Pantheon",["All"]+pantheon_values)
+    filtered = list(view_entities)
     if query:
         q=query.lower()
         filtered=[e for e in filtered if q in e["name"].lower() or q in e.get("description","").lower() or any(q in a.lower() for a in e.get("archetypes",[]))]
@@ -402,11 +520,12 @@ function draw(){{
         const r=n.size||10,col=ensureNodeColor(n[CK]||'#95A5A6');
     ctx.beginPath();ctx.arc(n.x,n.y,r,0,Math.PI*2);ctx.fillStyle=col+'cc';ctx.fill();
         ctx.strokeStyle='{node_border}';ctx.lineWidth=1.2;ctx.stroke();
-    if(r>12||zoom>1.5){{
-            ctx.fillStyle='{graph_label}';ctx.font=`${{Math.max(9,Math.min(12,r*.9))}}px Cinzel`;
+    // Always show labels - remove size/zoom condition
+    {{
+            ctx.fillStyle='{graph_label}';ctx.font=`${{Math.max(9,Math.min(13,r*.8))}}px Cinzel`;
       ctx.textAlign='center';ctx.textBaseline='middle';
-      const lbl=n.id.length>13?n.id.slice(0,12)+'…':n.id;
-      ctx.fillText(lbl,n.x,n.y+r+9);
+      const lbl=n.id.length>15?n.id.slice(0,14)+'…':n.id;
+      ctx.fillText(lbl,n.x,n.y+r+10);
     }}
   }}
   ctx.restore();
@@ -445,7 +564,12 @@ loop();
 
 # ══ PATH FINDER ═══════════════════════════════════════════════════════════════
 elif mode == "Path Finder":
-    st.markdown("### Mythological Path Finder")
+    col_home, col_title = st.columns([1, 4])
+    with col_home:
+        if st.button("← Home", use_container_width=True, key="home_btn"):
+            st.rerun()
+    with col_title:
+        st.markdown("### Mythological Path Finder")
     st.markdown('<div style="font-style:italic;color:#7a6a4a;margin-bottom:1.5rem;font-size:.95rem">Trace the mythological thread connecting any two entities.</div>', unsafe_allow_html=True)
     c1,c2 = st.columns(2)
     with c1: src=st.selectbox("From",entity_names,key="src")
@@ -474,6 +598,7 @@ elif mode == "Path Finder":
 # ══ ANALYSIS ══════════════════════════════════════════════════════════════════
 elif mode == "Analysis":
     st.markdown("### Graph Analysis")
+    analysis_entities = [e for e in entities if _is_real_entity_record(e)]
     cols = st.columns(5)
     for col,lbl,val in zip(cols,["Nodes","Edges","Density","Components","Avg Degree"],
                            [stats["nodes"],stats["edges"],stats["density"],stats["components"],stats["avg_degree"]]):
@@ -484,7 +609,7 @@ elif mode == "Analysis":
     with cl:
         st.markdown("#### Pantheon Breakdown")
         pc={}
-        for e in entities: p=e.get("pantheon","Unknown"); pc[p]=pc.get(p,0)+1
+        for e in analysis_entities: p=e.get("pantheon","Unknown"); pc[p]=pc.get(p,0)+1
         total=max(sum(pc.values()),1)
         for p,c in sorted(pc.items(),key=lambda x:x[1],reverse=True):
             col2=PANTHEON_COLORS.get(p,"#95A5A6"); bw=int(c/total*260)
@@ -503,5 +628,5 @@ elif mode == "Analysis":
     rows=[{"Name":e["name"],"Type":e.get("type",""),"Pantheon":e.get("pantheon",""),
            "Primary Archetype":e.get("primary_archetype",""),
            "Centrality":round(centrality.get(e["name"],0),4),
-           "Relations":len(onto.get_relations(e["name"]))} for e in entities]
+           "Relations":len(onto.get_relations(e["name"]))} for e in analysis_entities]
     st.dataframe(pd.DataFrame(rows).sort_values("Centrality",ascending=False),use_container_width=True,hide_index=True)
